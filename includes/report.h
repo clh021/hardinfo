@@ -44,17 +44,21 @@ struct _ReportContext {
   ShellModuleEntry	*entry;
   gchar			*output;
 
-  void (*header)      	(ReportContext *ctx);
-  void (*footer)      	(ReportContext *ctx);
-  void (*title)      	(ReportContext *ctx, gchar *text);
-  void (*subtitle)    	(ReportContext *ctx, gchar *text);
-  void (*subsubtitle)	(ReportContext *ctx, gchar *text);
-  void (*keyvalue)   	(ReportContext *ctx, gchar *key, gchar *value, gsize longest_key);
+  void (*header)      	        (ReportContext *ctx);
+  void (*footer)      	        (ReportContext *ctx);
+  void (*title)      	        (ReportContext *ctx, gchar *text);
+  void (*title_end)             (ReportContext *ctx);
+  void (*subtitle)    	        (ReportContext *ctx, gchar *text);
+  void (*subtitle_end)          (ReportContext *ctx);
+  void (*subsubtitle)	        (ReportContext *ctx, gchar *text);
+  void (*subsubtitle_end)       (ReportContext *ctx);
+  void (*keyvalue)   	        (ReportContext *ctx, gchar *key, gchar *value, gsize longest_key);
+  void (*keyvalue_end)          (ReportContext *ctx);
+  void (*details_start)         (ReportContext *ctx, gchar *key, gchar *value, gsize longest_key);
+  void (*details_section)       (ReportContext *ctx, gchar *name);
 
-  void (*details_start)     (ReportContext *ctx, gchar *key, gchar *value, gsize longest_key);
-  void (*details_section)   (ReportContext *ctx, gchar *name);
-  void (*details_keyvalue)  (ReportContext *ctx, gchar *key, gchar *value, gsize longest_key);
-  void (*details_end)       (ReportContext *ctx);
+  void (*details_keyvalue)      (ReportContext *ctx, gchar *key, gchar *value, gsize longest_key);
+  void (*details_end)           (ReportContext *ctx);
 
   ReportFormat		format;
 

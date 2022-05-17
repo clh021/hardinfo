@@ -46,14 +46,26 @@ void report_footer(ReportContext * ctx)
 void report_title(ReportContext * ctx, gchar * text)
 { ctx->title(ctx, text); }
 
+void report_title_end(ReportContext *ctx)
+{ ctx->title_end(ctx); }
+
 void report_subtitle(ReportContext * ctx, gchar * text)
 { ctx->subtitle(ctx, text); }
+
+void report_subtitle_end(ReportContext *ctx)
+{ ctx->subtitle_end(ctx); }
 
 void report_subsubtitle(ReportContext * ctx, gchar * text)
 { ctx->subsubtitle(ctx, text); }
 
+void report_subsubtitle_end(ReportContext *ctx)
+{ ctx->subsubtitle_end(ctx); }
+
 void report_key_value(ReportContext * ctx, gchar *key, gchar *value, gsize longest_key)
 { ctx->keyvalue(ctx, key, value, longest_key); }
+
+void report_key_value_end(ReportContext *ctx)
+{ ctx->keyvalue_end(ctx); }
 
 void report_details_start(ReportContext *ctx, gchar *key, gchar *value, gsize longest_key)
 { ctx->details_start(ctx, key, value, longest_key); }
@@ -202,6 +214,7 @@ void report_context_configure(ReportContext * ctx, GKeyFile * keyfile)
 static void report_html_details_start(ReportContext *ctx, gchar *key, gchar *value, gsize longest_key) {
     guint cols = report_get_visible_columns(ctx);
     report_key_value(ctx, key, value, longest_key);
+    report_key_value_end(ctx);
     ctx->parent_columns = ctx->columns;
     ctx->columns = REPORT_COL_VALUE;
     ctx->output = h_strdup_cprintf("<tr><td colspan=\"%d\"><table class=\"details\">\n", ctx->output, cols);
@@ -278,6 +291,8 @@ void report_details(ReportContext *ctx, gchar *key, gchar *value, gchar *details
 
         g_strfreev(keys);
         g_free(tmpgroup);
+
+        report_subsubtitle_end(ctx);
     }
 
     g_strfreev(groups);
@@ -404,9 +419,9 @@ void report_table(ReportContext * ctx, gchar * text)
 
                     if (mi_data)
                         report_details(ctx, key, value, mi_data, longest_key);
-                    else
+                    else {
                         report_key_value(ctx, key, value, longest_key);
-
+                    }
                     g_free(mi_tag);
                 } else {
                     report_key_value(ctx, key, value, longest_key);
@@ -417,6 +432,7 @@ void report_table(ReportContext * ctx, gchar * text)
             g_free(value);
             g_free(raw_value);
         }
+        report_key_value_end(ctx);
 
         g_strfreev(keys);
 
@@ -670,43 +686,37 @@ report_text_key_value(ReportContext * ctx, gchar *key, gchar *value, gsize longe
 static void report_json_header(ReportContext * ctx)
 {
     g_free(ctx->output);
-
     ctx->output = g_strdup("{\n");
 }
 
-static void report_json_footer(ReportContext * ctx, gchar * text)
+static void report_json_footer(ReportContext * ctx)
 {
-    gchar *str = (gchar *) ctx->output;
-    int i = strlen(text);
-
-    str = h_strdup_cprintf("\n}", str, text);
-    ctx->output = str;
+    ctx->output = h_strdup_cprintf("}\n", ctx->output);
 }
 
 static void report_json_title(ReportContext * ctx, gchar * text)
 {
+    if (!ctx->first_table) {
+        ctx->output = h_strdup_cprintf("\n},", ctx->output);
+    }
     gchar *str = (gchar *) ctx->output;
-    int i = strlen(text);
-
-    str = h_strdup_cprintf("\"%s\":", str, text);
+    str = h_strdup_cprintf("\"13%s\":{", str, text);
     ctx->output = str;
 }
 
 static void report_json_subtitle(ReportContext * ctx, gchar * text)
 {
     gchar *str = ctx->output;
-    int i = strlen(text);
-
-    str = h_strdup_cprintf("{\n\"%s\":", str, text);
+    str = h_strdup_cprintf("\n\"12%s\":{\n", str, text);
     ctx->output = str;
 }
 
 static void report_json_subsubtitle(ReportContext * ctx, gchar * text)
 {
-    gchar indent[10] = "   ";
-    if (!ctx->in_details)
-        indent[0] = 0;
-    ctx->output = h_strdup_cprintf("{\n\"%s\":\n", ctx->output, text);
+    // if (!ctx->first_table) {
+    //     ctx->output = h_strdup_cprintf("\n},", ctx->output);
+    // }
+    ctx->output = h_strdup_cprintf("\n\"11%s\":{\n", ctx->output, text);
 }
 
 static void
@@ -739,29 +749,32 @@ report_json_key_value(ReportContext * ctx, gchar *key, gchar *value, gsize longe
                 gchar **lines = g_strsplit(value, "\n", 0);
                 for(i=0; lines[i]; i++) {
                     if (i == 0)
-                        ctx->output = h_strdup_cprintf("{\"%s\" : \"%s\"},\n", ctx->output, rjname, lines[i]);
+                        ctx->output = h_strdup_cprintf("\"44%s\" : \"%s\",\n", ctx->output, rjname, lines[i]);
                     else
-                        ctx->output = h_strdup_cprintf("{\"%s\" : \"%s\"},\n", ctx->output, field_spacer, lines[i]);
+                        ctx->output = h_strdup_cprintf("\"43%s\" : \"%s\",\n", ctx->output, field_spacer, lines[i]);
                 }
                 g_strfreev(lines);
             } else {
-                ctx->output = h_strdup_cprintf("{\"%s\" : \"%s\"},\n", ctx->output, rjname, value);
+                ctx->output = h_strdup_cprintf("\"42%s\" : \"%s\",\n", ctx->output, rjname, value);
             }
-        } else
-            ctx->output = h_strdup_cprintf("\n{\n\"%s\" : \"%s\"}},\n", ctx->output, pf, rjname);
+        } else {
+            ctx->output = h_strdup_cprintf("\"41%s\" : \"%s\",\n",ctx->output, pf, rjname);
+        }
     } else {
         values = g_strsplit(value, "|", columns);
         mc = g_strv_length(values) - 1;
 
-        ctx->output = h_strdup_cprintf("\n{\n\"%s\" : \"%s\"},\n", ctx->output, pf, rjname);
+        ctx->output = h_strdup_cprintf("\"31%s\":\n", ctx->output, rjname);
 
+        ctx->output = h_strdup_cprintf("[", ctx->output);
         for (i = mc; i >= 0; i--) {
-            ctx->output = h_strdup_cprintf("\t%s",
-                                           ctx->output,
-                                           values[i]);
+            if (i ==0) {
+                ctx->output = h_strdup_cprintf("\"%s\"", ctx->output, values[i]);
+            } else {
+                ctx->output = h_strdup_cprintf("\"%s\",", ctx->output, values[i]);
+            }
         }
-
-        ctx->output = h_strdup_cprintf("},\n", ctx->output);
+        ctx->output = h_strdup_cprintf("],\n", ctx->output);
 
         g_strfreev(values);
     }
@@ -845,7 +858,11 @@ report_create_inner_from_module_list(ReportContext * ctx, GSList * modules)
 	    report_subtitle(ctx, entry->name);
 	    module_entry_scan(entry);
 	    report_table(ctx, module_entry_function(entry));
+	    report_subtitle_end(ctx);
 	}
+
+	report_title_end(ctx);
+
     }
 }
 
@@ -899,6 +916,10 @@ static gchar *report_get_filename(void)
     return filename;
 }
 
+static void report_html_nothing(ReportContext * ctx)
+{
+}
+
 ReportContext *report_context_html_new()
 {
     ReportContext *ctx;
@@ -907,9 +928,13 @@ ReportContext *report_context_html_new()
     ctx->header = report_html_header;
     ctx->footer = report_html_footer;
     ctx->title = report_html_title;
+    ctx->title_end = report_html_nothing;
     ctx->subtitle = report_html_subtitle;
+    ctx->subtitle_end = report_html_nothing;
     ctx->subsubtitle = report_html_subsubtitle;
+    ctx->subsubtitle_end = report_html_nothing;
     ctx->keyvalue = report_html_key_value;
+    ctx->keyvalue_end = report_html_nothing;
 
     ctx->details_start = report_html_details_start;
     ctx->details_section = report_html_subsubtitle;
@@ -928,6 +953,10 @@ ReportContext *report_context_html_new()
     return ctx;
 }
 
+static void report_text_nothing(ReportContext * ctx)
+{
+}
+
 ReportContext *report_context_text_new()
 {
     ReportContext *ctx;
@@ -936,10 +965,13 @@ ReportContext *report_context_text_new()
     ctx->header = report_text_header;
     ctx->footer = report_text_footer;
     ctx->title = report_text_title;
+    ctx->title_end = report_text_nothing;
     ctx->subtitle = report_text_subtitle;
+    ctx->subtitle_end = report_text_nothing;
     ctx->subsubtitle = report_text_subsubtitle;
+    ctx->subsubtitle_end = report_text_nothing;
     ctx->keyvalue = report_text_key_value;
-
+    ctx->keyvalue_end = report_text_nothing;
     ctx->details_start = report_text_key_value;
     ctx->details_section = report_text_subsubtitle;
     ctx->details_keyvalue = report_text_key_value;
@@ -964,7 +996,9 @@ ReportContext *report_context_shell_new()
     ctx->footer = report_text_footer;
 
     ctx->title = report_text_title;
+    ctx->title_end = report_text_nothing;
     ctx->subtitle = report_text_subtitle;
+    ctx->subtitle_end = report_text_nothing;
     /* special format handled in report_table(),
      * doesn't need the others. */
 
@@ -978,6 +1012,26 @@ ReportContext *report_context_shell_new()
     return ctx;
 }
 
+static void report_json_end20(ReportContext * ctx)
+{
+    ctx->output = h_strdup_cprintf("},\n", ctx->output);
+}
+
+static void report_json_end21(ReportContext * ctx)
+{
+    ctx->output = h_strdup_cprintf("},\n", ctx->output);
+}
+
+static void report_json_end22(ReportContext * ctx)
+{
+    // ctx->output = h_strdup_cprintf("<22>},\n", ctx->output);
+}
+
+static void report_json_end23(ReportContext * ctx)
+{
+    ctx->output = h_strdup_cprintf("},\n", ctx->output);
+}
+
 ReportContext *report_context_json_new()
 {
     ReportContext *ctx;
@@ -987,14 +1041,18 @@ ReportContext *report_context_json_new()
     ctx->footer = report_json_footer;
 
     ctx->title = report_json_title;
+    ctx->title_end = report_json_end20;
     ctx->subtitle = report_json_subtitle;
+    ctx->subtitle_end = report_json_end21;
     ctx->subsubtitle = report_json_subsubtitle;
+    ctx->subsubtitle_end = report_json_end22;
     ctx->keyvalue = report_json_key_value;
+    ctx->keyvalue_end = report_json_end23;
 
     ctx->details_start = report_json_key_value;
     ctx->details_section = report_json_subsubtitle;
     ctx->details_keyvalue = report_json_key_value;
-    ctx->details_end = report_text_footer; /* nothing */
+    ctx->details_end = report_json_footer; /* nothing */
 
     ctx->output = g_strdup("");
     ctx->format = REPORT_FORMAT_JSON;
