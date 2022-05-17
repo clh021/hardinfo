@@ -14,8 +14,9 @@ fi
 cd "$BUILD_DIR"
 cmake ..
 make
-cp *.so ../lib/
-cp *.so ../share/
+mkdir -p "$ProjectPath/lib/hardinfo/modules/"
+cp *.so "$ProjectPath/lib/hardinfo/modules/"
+#cp *.so ../share/
 #sudo make install
 #sudo rm -rf /usr/local/share/hardinfo
 #sudo rm -rf /usr/local/lib/hardinfo
