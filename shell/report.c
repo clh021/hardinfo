@@ -32,6 +32,7 @@ static FileTypes file_types[] = {
     {"HTML (*.html)", "text/html", ".html", report_context_html_new},
     {"Plain Text (*.txt)", "text/plain", ".txt", report_context_text_new},
     {"Shell Dump (*.txt)", "text/plain", ".txt", report_context_shell_new},
+    {"Json Dump (*.json)", "application/json", ".json", report_context_json_new},
     {NULL, NULL, NULL, NULL}
 };
 
@@ -666,6 +667,110 @@ report_text_key_value(ReportContext * ctx, gchar *key, gchar *value, gsize longe
     g_free(pf);
 }
 
+static void report_json_header(ReportContext * ctx)
+{
+    g_free(ctx->output);
+
+    ctx->output = g_strdup("");
+}
+
+static void report_json_footer(ReportContext * ctx)
+{
+}
+
+static void report_json_title(ReportContext * ctx, gchar * text)
+{
+    gchar *str = (gchar *) ctx->output;
+    int i = strlen(text);
+
+    str = h_strdup_cprintf("\n%s\n", str, text);
+    for (; i; i--)
+        str = h_strconcat(str, "*", NULL);
+
+    str = h_strconcat(str, "\n\n", NULL);
+    ctx->output = str;
+}
+
+static void report_json_subtitle(ReportContext * ctx, gchar * text)
+{
+    gchar *str = ctx->output;
+    int i = strlen(text);
+
+    str = h_strdup_cprintf("\n%s\n", str, text);
+    for (; i; i--)
+        str = h_strconcat(str, "-", NULL);
+
+    str = h_strconcat(str, "\n\n", NULL);
+    ctx->output = str;
+}
+
+static void report_json_subsubtitle(ReportContext * ctx, gchar * text)
+{
+    gchar indent[10] = "   ";
+    if (!ctx->in_details)
+        indent[0] = 0;
+    ctx->output = h_strdup_cprintf("%s-%s-\n", ctx->output, indent, text);
+}
+
+static void
+report_json_key_value(ReportContext * ctx, gchar *key, gchar *value, gsize longest_key)
+{
+    gint columns = report_get_visible_columns(ctx);
+    gchar **values;
+    gint i, mc, field_width = MAX(10, longest_key);
+    gchar indent[10] = "      ";
+    if (!ctx->in_details)
+        indent[0] = 0;
+    gchar field_spacer[51];
+    for(i = 0; i < 49; i++)
+        field_spacer[i] = ' ';
+    field_width = MIN(50, field_width);
+    field_spacer[field_width] = 0;
+
+    gboolean highlight = key_is_highlighted(key);
+    gboolean multiline = (value && strlen(value) && strchr(value, '\n'));
+    gchar *name = (gchar*)key_get_name(key);
+    gchar *pf = g_strdup_printf("%s%s", indent, highlight ? "* " : "  ");
+    gchar *rjname = g_strdup(field_spacer);
+    if (strlen(name) > strlen(rjname))
+        name[strlen(rjname)] = 0;
+    strcpy(rjname + strlen(rjname) - strlen(name), name);
+
+    if (columns == 2 || ctx->in_details) {
+        if (strlen(value)) {
+            if (multiline) {
+                gchar **lines = g_strsplit(value, "\n", 0);
+                for(i=0; lines[i]; i++) {
+                    if (i == 0)
+                        ctx->output = h_strdup_cprintf("%s%s : %s\n", ctx->output, pf, rjname, lines[i]);
+                    else
+                        ctx->output = h_strdup_cprintf("%s%s   %s\n", ctx->output, pf, field_spacer, lines[i]);
+                }
+                g_strfreev(lines);
+            } else {
+                ctx->output = h_strdup_cprintf("%s%s : %s\n", ctx->output, pf, rjname, value);
+            }
+        } else
+            ctx->output = h_strdup_cprintf("%s%s\n", ctx->output, pf, rjname);
+    } else {
+        values = g_strsplit(value, "|", columns);
+        mc = g_strv_length(values) - 1;
+
+        ctx->output = h_strdup_cprintf("%s%s", ctx->output, pf, rjname);
+
+        for (i = mc; i >= 0; i--) {
+            ctx->output = h_strdup_cprintf("\t%s",
+                                           ctx->output,
+                                           values[i]);
+        }
+
+        ctx->output = h_strdup_cprintf("\n", ctx->output);
+
+        g_strfreev(values);
+    }
+    g_free(pf);
+}
+
 static GSList *report_create_module_list_from_dialog(ReportDialog * rd)
 {
     ShellModule *module;
@@ -868,6 +973,27 @@ ReportContext *report_context_shell_new()
 
     ctx->output = g_strdup("");
     ctx->format = REPORT_FORMAT_SHELL;
+
+    ctx->column_titles = g_hash_table_new_full(g_str_hash, g_str_equal,
+                                               g_free, g_free);
+    ctx->first_table = TRUE;
+
+    return ctx;
+}
+
+ReportContext *report_context_json_new()
+{
+    ReportContext *ctx;
+
+    ctx = g_new0(ReportContext, 1);
+    ctx->header = report_json_header;
+    ctx->footer = report_json_footer;
+
+    ctx->title = report_json_title;
+    ctx->subtitle = report_json_subtitle;
+
+    ctx->output = g_strdup("");
+    ctx->format = REPORT_FORMAT_JSON;
 
     ctx->column_titles = g_hash_table_new_full(g_str_hash, g_str_equal,
                                                g_free, g_free);
