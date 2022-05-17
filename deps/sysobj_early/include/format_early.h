@@ -32,6 +32,7 @@ enum {
     FMT_OPT_ATERM  = 1<<16,  /* ANSI color terminal */
     FMT_OPT_PANGO  = 1<<17,  /* pango markup for gtk */
     FMT_OPT_HTML   = 1<<18,  /* html */
+    FMT_OPT_JSON   = 1<<19,  /* json */
 };
 
 gchar *safe_ansi_color(gchar *ansi_color, gboolean free_in); /* verify the ansi color */

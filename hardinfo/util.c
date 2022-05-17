@@ -524,6 +524,8 @@ void parameters_init(int *argc, char ***argv, ProgramParameters * param)
             param->report_format = REPORT_FORMAT_HTML;
         if (g_str_equal(report_format, "shell"))
             param->report_format = REPORT_FORMAT_SHELL;
+        if (g_str_equal(report_format, "json"))
+            param->report_format = REPORT_FORMAT_JSON;
     }
 
     /* clean user note */
