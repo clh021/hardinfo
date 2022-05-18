@@ -40,6 +40,17 @@ Create a build directory and build from there:
 	build $ make
 ```
 
+Fork feature Problem
+---------
+JSON export error with
+```bash
+#after "Processor">"Processors"
+#before "Graphics Processors"
+#json loop error
+# /build/test.output.json:L944
+# "Graphics Processors" should same level with "Processors"
+```
+
 There are some variables that can be changed:
 
  * `CMAKE_BUILD_TYPE`: Can either be ``Release`` or ``Debug``.
