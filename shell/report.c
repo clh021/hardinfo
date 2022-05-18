@@ -759,8 +759,12 @@ char* replaceWord(const char* s, const char* oldW,
 
 char* replaceWordVal(const char* s) {
     return replaceWord(
-        replaceWord(s, "\\", "\\\\")
-            ,"\n","\\n");
+        replaceWord(
+            replaceWord(
+            s
+                , "\\", "\\\\")
+            ,"\n","\\n")
+        , "\"", "\\\"");
 }
 
 static void
@@ -816,15 +820,15 @@ report_json_details_start(ReportContext * ctx, gchar *key, gchar *value, gsize l
             DEBUG("%s", rjname);
         }
 
-        ctx->output = h_strdup_cprintf("\"31%s\":\n", ctx->output, rjname);
+        ctx->output = h_strdup_cprintf("\"311%s\":\n", ctx->output, replaceWordVal(rjname));
 
         ctx->output = h_strdup_cprintf("[", ctx->output);
         for (i = mc; i >= 0; i--) {
-            if (i ==0) {
-                ctx->output = h_strdup_cprintf("\"%s\"", ctx->output, values[i]);
-            } else {
-                ctx->output = h_strdup_cprintf("\"%s\",", ctx->output, values[i]);
-            }
+//            if (i ==0) {
+//                ctx->output = h_strdup_cprintf("\"%s\"", ctx->output, values[i]);
+//            } else {
+                ctx->output = h_strdup_cprintf("\"%s\",", ctx->output, replaceWordVal(values[i]));
+//            }
         }
         ctx->output = h_strdup_cprintf("],\n", ctx->output);
 
@@ -886,15 +890,15 @@ report_json_key_value(ReportContext * ctx, gchar *key, gchar *value, gsize longe
             DEBUG("%s", rjname);
         }
 
-        ctx->output = h_strdup_cprintf("\"31%s\":\n", ctx->output, rjname);
+        ctx->output = h_strdup_cprintf("\"312%s\":\n", ctx->output, replaceWordVal(rjname));
 
         ctx->output = h_strdup_cprintf("[", ctx->output);
         for (i = mc; i >= 0; i--) {
-            if (i ==0) {
-                ctx->output = h_strdup_cprintf("\"%s\"", ctx->output, values[i]);
-            } else {
-                ctx->output = h_strdup_cprintf("\"%s\",", ctx->output, values[i]);
-            }
+//            if (i ==0) {
+//                ctx->output = h_strdup_cprintf("\"%s\"", ctx->output, values[i]);
+//            } else {
+                ctx->output = h_strdup_cprintf("\"%s\",", ctx->output, replaceWordVal(values[i]));
+//            }
         }
         ctx->output = h_strdup_cprintf("],\n", ctx->output);
 
