@@ -2,72 +2,72 @@
     "13Computer": {
         "12Summary": {
             "11Computer": {
-                "44       Processor": "Intel Core i5-6400",
+                "44Processor": "Intel Core i5-6400",
                 "43                ": "1 physical processor; 4 cores; 4 threads",
-                "42          Memory": "16294MB (8498MB used)",
-                "42    Machine Type": "Desktop",
+                "42Memory": "16294MB (11749MB used)",
+                "42Machine Type": "Desktop",
                 "42Operating System": "Debian GNU/Linux 11 (bullseye)",
-                "42       User Name": "chenlianghong (lee)",
-                "42       Date/Time": "2022年05月18日 星期三 03时57分44秒",
+                "42User Name": "chenlianghong (lee)",
+                "42Date/Time": "2022年05月18日 星期三 09时56分57秒",
             },
             "11Display": {
-                "42            Resolution": "1920x1080 pixels",
-                "42       Display Adapter": "Intel HD Graphics 530",
-                "42       OpenGL Renderer": "Mesa Intel(R) HD Graphics 530 (SKL GT2)",
+                "42Resolution": "1920x1080 pixels",
+                "42Display Adapter": "Intel HD Graphics 530",
+                "42OpenGL Renderer": "Mesa Intel(R) HD Graphics 530 (SKL GT2)",
                 "42Session Display Server": "The X.Org Foundation 1.20.11",
             },
             "11Audio Devices": {
                 "42Audio Adapter": "HDA-Intel - HDA Intel PCH",
             },
             "11Input Devices": {
-                "42                           Sleep Button": "Keyboard",
-                "42                           Power Button": "Keyboard",
-                "42                           Power Button": "Keyboard",
-                "42                              Video Bus": "Keyboard",
-                "42                       LXD Gaming Mouse": "Keyboard",
-                "42                       LXD Gaming Mouse": "Mouse",
-                "42      LXD Gaming Mouse Consumer Control": "Keyboard",
-                "42        LXD Gaming Mouse System Control": "Keyboard",
-                "42                  Logitech USB Keyboard": "Keyboard",
+                "42 Sleep Button": "Keyboard",
+                "42 Power Button": "Keyboard",
+                "42 Power Button": "Keyboard",
+                "42 Video Bus": "Keyboard",
+                "42 LXD Gaming Mouse": "Keyboard",
+                "42 LXD Gaming Mouse": "Mouse",
+                "42 LXD Gaming Mouse Consumer Control": "Keyboard",
+                "42 LXD Gaming Mouse System Control": "Keyboard",
+                "42 Logitech USB Keyboard": "Keyboard",
                 "42 Logitech USB Keyboard Consumer Control": "Keyboard",
-                "42   Logitech USB Keyboard System Control": "Keyboard",
-                "42                             PC Speaker": "Speaker",
-                "42                     HDA Digital PCBeep": "Keyboard",
-                "42                 HDA Intel PCH Rear Mic": "Audio",
-                "42                     HDA Intel PCH Line": "Audio",
-                "42            HDA Intel PCH Headphone Mic": "Audio",
-                "42                 HDA Intel PCH Line Out": "Audio",
-                "42            HDA Intel PCH HDMI/DP,pcm:3": "Audio",
-                "42            HDA Intel PCH HDMI/DP,pcm:7": "Audio",
-                "42            HDA Intel PCH HDMI/DP,pcm:8": "Audio",
-                "42            HDA Intel PCH HDMI/DP,pcm:9": "Audio",
-                "42           HDA Intel PCH HDMI/DP,pcm:10": "Audio",
+                "42 Logitech USB Keyboard System Control": "Keyboard",
+                "42 PC Speaker": "Speaker",
+                "42 HDA Digital PCBeep": "Keyboard",
+                "42 HDA Intel PCH Rear Mic": "Audio",
+                "42 HDA Intel PCH Line": "Audio",
+                "42 HDA Intel PCH Headphone Mic": "Audio",
+                "42 HDA Intel PCH Line Out": "Audio",
+                "42 HDA Intel PCH HDMI/DP,pcm:3": "Audio",
+                "42 HDA Intel PCH HDMI/DP,pcm:7": "Audio",
+                "42 HDA Intel PCH HDMI/DP,pcm:8": "Audio",
+                "42 HDA Intel PCH HDMI/DP,pcm:9": "Audio",
+                "42 HDA Intel PCH HDMI/DP,pcm:10": "Audio",
             },
             "11Printers (CUPS)": {
-                "41  ": "HP_LaserJet_MFP_M437_M443_NPI8217F7_",
+                "41": "HP_LaserJet_MFP_M437_M443_NPI8217F7_",
             },
             "11UDisks2": {
-                "42       sda": "sFORESEE 256GB SSD",
+                "42sda": "sFORESEE 256GB SSD",
             },
         },
         "12Operating System": {
             "11Version": {
-                "42      Kernel": "Linux 5.10.0-14-amd64 (x86_64)",
+                "42Kernel": "Linux 5.10.0-14-amd64 (x86_64)",
                 "42Command Line": "BOOT_IMAGE=/boot/vmlinuz-5.10.0-14-amd64 root=UUID=a1ae99ab-efe3-48dc-b687-12f4686d4ee0 ro quiet splash",
-                "42     Version": "#1 SMP Debian 5.10.113-1 (2022-04-29)",
-                "42   C Library": "GNU C Library / (Debian GLIBC 2.31-13+deb11u3) 2.31",
+                "42Version": "#1 SMP Debian 5.10.113-1 (2022-04-29)",
+                "42C Library": "GNU C Library / (Debian GLIBC 2.31-13+deb11u3) 2.31",
                 "42Distribution": "Debian GNU/Linux 11 (bullseye)",
             },
             "11Current Session": {
-                "42      Computer Name": "dev-computer",
-                "42          User Name": "chenlianghong (lee)",
-                "42           Language": "zh_CN.UTF-8 (zh_CN:en_US)",
-                "42     Home Directory": "/home/chenlianghong",
+                "42Computer Name": "dev-computer",
+                "42User Name": "chenlianghong (lee)",
+                "42Language": "zh_CN.UTF-8 (zh_CN:en_US)",
+                "42Home Directory": "/home/chenlianghong",
                 "42Desktop Environment": "KDE on x11",
             },
             "11Misc": {
-                "42      Uptime": "20 hours 8 minutes",
-                "42Load Average": "1.73, 2.62, 2.59",
+                "42Uptime": "1 day 2 hours 7 minutes",
+                "42Load Average": "1.13, 1.57, 1.93",
             },
         },
         "12Security": {
@@ -75,199 +75,199 @@
                 "42HardInfo running as": "User",
             },
             "11Health": {
-                "42Available entropy in /dev/random": "3773 bits (healthy)",
+                "42Available entropy in /dev/random": "3731 bits (healthy)",
             },
             "11Hardening Features": {
-                "42      ASLR": "Fully enabled (mmap base+stack+VDSO base+heap)",
-                "42     dmesg": "User access forbidden",
+                "42ASLR": "Fully enabled (mmap base+stack+VDSO base+heap)",
+                "42dmesg": "User access forbidden",
             },
             "11Linux Security Modules": {
                 "42Modules available": "lockdown,capability,yama,apparmor,tomoyo",
-                "42   SELinux status": "Not installed",
+                "42SELinux status": "Not installed",
             },
             "11CPU Vulnerabilities": {
-                "42    itlb_multihit": "KVM: Mitigation: VMX disabled",
-                "42             l1tf": "Mitigation: PTE Inversion; VMX: conditional cache flushes, SMT disabled",
-                "42              mds": "Vulnerable: Clear CPU buffers attempted, no microcode; SMT disabled",
-                "42         meltdown": "Mitigation: PTI",
+                "42itlb_multihit": "KVM: Mitigation: VMX disabled",
+                "42l1tf": "Mitigation: PTE Inversion; VMX: conditional cache flushes, SMT disabled",
+                "42mds": "Vulnerable: Clear CPU buffers attempted, no microcode; SMT disabled",
+                "42meltdown": "Mitigation: PTI",
                 "42spec_store_bypass": "Vulnerable",
-                "42       spectre_v1": "Mitigation: usercopy/swapgs barriers and __user pointer sanitization",
-                "42       spectre_v2": "Mitigation: Retpolines, STIBP: disabled, RSB filling",
-                "42            srbds": "Vulnerable: No microcode",
-                "42  tsx_async_abort": "Not affected",
+                "42spectre_v1": "Mitigation: usercopy/swapgs barriers and __user pointer sanitization",
+                "42spectre_v2": "Mitigation: Retpolines, STIBP: disabled, RSB filling",
+                "42srbds": "Vulnerable: No microcode",
+                "42tsx_async_abort": "Not affected",
             },
         },
         "12Kernel Modules": {
             "11Loaded Modules": {
-                "42                        veth": "Virtual Ethernet Tunnel",
-                "42                      xt_nat": "SNAT and DNAT targets support",
-                "42                   xt_tcpudp": "Xtables: TCP, UDP and UDP-Lite match",
-                "42                xt_conntrack": "Xtables: connection tracking state match",
-                "41  ": "               nft_chain_nat",
-                "42               xt_MASQUERADE": "Xtables: automatic-address SNAT",
-                "41  ": "                      nf_nat",
-                "41  ": "        nf_conntrack_netlink",
-                "41  ": "                nf_conntrack",
-                "41  ": "              nf_defrag_ipv6",
-                "41  ": "              nf_defrag_ipv4",
-                "41  ": "                   xfrm_user",
-                "41  ": "                   xfrm_algo",
-                "42                 nft_counter": "nftables counter rule support",
-                "42                 xt_addrtype": "Xtables: address type match",
-                "42                  nft_compat": "x_tables over nftables support",
-                "41  ": "                   nf_tables",
-                "42                br_netfilter": "Linux ethernet netfilter firewall bridge",
-                "41  ": "                      bridge",
-                "41  ": "                         stp",
-                "42                         llc": "LLC IEEE 802.2 core support",
-                "42                   nfnetlink": "Netfilter messages via netlink socket",
-                "42                     overlay": "Overlay filesystem",
-                "42                      rfkill": "RF switch support",
-                "42          snd_hda_codec_hdmi": "HDMI HD-audio codec",
-                "42       snd_hda_codec_realtek": "Realtek HD-audio codec",
-                "42              intel_rapl_msr": "Driver for Intel RAPL (Running Average Power Limit) control via MSR interface",
-                "42       snd_hda_codec_generic": "Generic HD-audio codec parser",
-                "42           intel_rapl_common": "Intel Runtime Average Power Limit (RAPL) common code",
-                "42               ledtrig_audio": "LED trigger for audio mute control",
-                "41  ": "                 binfmt_misc",
-                "42               snd_hda_intel": "Intel HDA driver",
-                "42            snd_intel_dspcfg": "Intel DSP config driver",
-                "42             soundwire_intel": "Intel Soundwire Master Driver",
+                "42veth": "Virtual Ethernet Tunnel",
+                "42xt_nat": "SNAT and DNAT targets support",
+                "42xt_tcpudp": "Xtables: TCP, UDP and UDP-Lite match",
+                "42xt_conntrack": "Xtables: connection tracking state match",
+                "41": "nft_chain_nat",
+                "42xt_MASQUERADE": "Xtables: automatic-address SNAT",
+                "41": "nf_nat",
+                "41": "nf_conntrack_netlink",
+                "41": "nf_conntrack",
+                "41": "nf_defrag_ipv6",
+                "41": "nf_defrag_ipv4",
+                "41": "xfrm_user",
+                "41": "xfrm_algo",
+                "42nft_counter": "nftables counter rule support",
+                "42xt_addrtype": "Xtables: address type match",
+                "42nft_compat": "x_tables over nftables support",
+                "41": "nf_tables",
+                "42br_netfilter": "Linux ethernet netfilter firewall bridge",
+                "41": "bridge",
+                "41": "stp",
+                "42llc": "LLC IEEE 802.2 core support",
+                "42nfnetlink": "Netfilter messages via netlink socket",
+                "42overlay": "Overlay filesystem",
+                "42rfkill": "RF switch support",
+                "42snd_hda_codec_hdmi": "HDMI HD-audio codec",
+                "42snd_hda_codec_realtek": "Realtek HD-audio codec",
+                "42intel_rapl_msr": "Driver for Intel RAPL (Running Average Power Limit) control via MSR interface",
+                "42snd_hda_codec_generic": "Generic HD-audio codec parser",
+                "42intel_rapl_common": "Intel Runtime Average Power Limit (RAPL) common code",
+                "42ledtrig_audio": "LED trigger for audio mute control",
+                "41": "binfmt_misc",
+                "42snd_hda_intel": "Intel HDA driver",
+                "42snd_intel_dspcfg": "Intel DSP config driver",
+                "42soundwire_intel": "Intel Soundwire Master Driver",
                 "42soundwire_generic_allocation": "SoundWire Generic Bandwidth Allocation",
-                "41  ": "                   nls_ascii",
-                "41  ": "                   nls_cp437",
-                "42                snd_soc_core": "ALSA SoC Core",
-                "42                        vfat": "VFAT filesystem support",
-                "41  ": "                         fat",
-                "42                snd_compress": "ALSA Compressed offload framework",
-                "42                    mei_hdcp": "MEI HDCP",
-                "42           soundwire_cadence": "Cadence Soundwire Library",
-                "42               snd_hda_codec": "HDA codec core",
-                "42        x86_pkg_temp_thermal": "X86 PKG TEMP Thermal Driver",
-                "42            intel_powerclamp": "Package Level C-state Idle Injection for Intel CPUs",
-                "42                    coretemp": "Intel Core temperature monitor",
-                "42                      dcdbas": "Dell Systems Management Base Driver (version 5.6.0-3.4)",
-                "42              dell_smm_hwmon": "Dell laptop SMM BIOS hwmon driver",
-                "41  ": "                   kvm_intel",
-                "42                snd_hda_core": "HD-audio bus",
-                "42                 rtsx_usb_ms": "Realtek USB Memstick Card Host Driver",
-                "42                    iTCO_wdt": "Intel TCO WatchDog Timer Driver",
-                "42                   snd_hwdep": "Hardware dependent layer",
-                "42               intel_pmc_bxt": "Intel Broxton PMC driver",
-                "42         iTCO_vendor_support": "Intel TCO Vendor Specific WatchDog Timer Driver Support",
-                "42               soundwire_bus": "SoundWire bus",
-                "42                    memstick": "Sony MemoryStick core driver",
-                "42                      joydev": "Joystick device interfaces",
-                "42                    watchdog": "WatchDog Timer Driver Core",
-                "42                        at24": "Driver for most I2C EEPROMs",
-                "42                          sg": "SCSI generic (sg) driver",
-                "42                     snd_pcm": "Midlevel PCM code for ALSA.",
-                "41  ": "                         kvm",
-                "42                   snd_timer": "ALSA timer interface",
-                "42                         snd": "Advanced Linux Sound Architecture driver for soundcards.",
-                "42                   irqbypass": "IRQ bypass manager utility module",
-                "42                     tpm_crb": "TPM2 Driver",
-                "42                      mei_me": "Intel(R) Management Engine Interface",
-                "42                   soundcore": "Core sound module",
-                "42                     tpm_tis": "TPM Driver",
-                "41  ": "                        rapl",
-                "42                         mei": "Intel(R) Management Engine Interface",
-                "42                tpm_tis_core": "TPM Driver",
-                "42           intel_pch_thermal": "Intel PCH Thermal driver",
-                "42                       evdev": "Input driver event char devices",
-                "42                         tpm": "TPM Driver",
-                "41  ": "                intel_cstate",
-                "42                   serio_raw": "Raw serio driver",
-                "41  ": "                intel_uncore",
-                "42                    rng_core": "H/W Random Number Generator (RNG) driver",
-                "42                  efi_pstore": "EFI variable backend for pstore",
-                "42              intel_pmc_core": "Intel PMC Core Driver",
-                "42                    acpi_pad": "ACPI Processor Aggregator Driver",
-                "42                      pcspkr": "PC Speaker beeper driver",
-                "42                    wmi_bmof": "WMI embedded Binary MOF driver",
-                "42       intel_wmi_thunderbolt": "Intel WMI Thunderbolt force power driver",
-                "42                  parport_pc": "PC-style parallel port driver",
-                "41  ": "                       ppdev",
-                "41  ": "                          lp",
-                "41  ": "                     parport",
-                "42                        fuse": "Filesystem in Userspace",
-                "42                    configfs": "Simple RAM filesystem for user driven kernel subsystem configuration.",
-                "42                    efivarfs": "EFI Variable Filesystem",
-                "42                   ip_tables": "IPv4 packet filter",
-                "42                    x_tables": "{ip,ip6,arp,eb}_tables backend module",
-                "41  ": "                     autofs4",
-                "42                        ext4": "Fourth Extended Filesystem",
-                "42                       crc16": "CRC16 calculations",
-                "42                     mbcache": "Meta block cache (for extended attributes)",
-                "41  ": "                        jbd2",
-                "41  ": "                       btrfs",
-                "42             blake2b_generic": "BLAKE2b generic implementation",
-                "42                 hid_generic": "HID generic driver",
-                "42                      usbhid": "USB HID core driver",
-                "41  ": "                         hid",
-                "42                      raid10": "RAID10 (striped mirror) personality for MD",
-                "42                     raid456": "RAID4/5/6 (striping with parity) personality for MD",
-                "42           async_raid6_recov": "asynchronous RAID-6 recovery api",
-                "42                async_memcpy": "asynchronous memcpy api",
-                "42                    async_pq": "asynchronous raid6 syndrome generation/validation",
-                "42                   async_xor": "asynchronous xor/xor-zero-sum api",
-                "42                    async_tx": "Asynchronous Bulk Memory Transactions API",
-                "41  ": "                         xor",
-                "42              rtsx_usb_sdmmc": "Realtek USB SD/MMC Card Host Driver",
-                "41  ": "                    mmc_core",
-                "42                    rtsx_usb": "Realtek USB Card Reader Driver",
-                "42                    raid6_pq": "RAID6 Q-syndrome calculations",
-                "42                   libcrc32c": "CRC32c (Castagnoli) calculations",
-                "42              crc32c_generic": "CRC32c (Castagnoli) calculations wrapper for lib/crc32c",
-                "42                       raid1": "RAID1 (mirroring) personality for MD",
-                "42                       raid0": "RAID0 (striping) personality for MD",
-                "42                   multipath": "simple multi-path personality for MD",
-                "42                      linear": "Linear device concatenation personality for MD",
-                "42                      md_mod": "MD RAID framework",
-                "42                      sd_mod": "SCSI disk (sd) driver",
-                "41  ": "                      t10_pi",
-                "42                  crc_t10dif": "T10 DIF CRC calculation (library API)",
-                "42           crct10dif_generic": "T10 DIF CRC calculation.",
-                "42            crct10dif_pclmul": "T10 DIF CRC calculation accelerated with PCLMULQDQ.",
-                "42            crct10dif_common": "T10 DIF CRC calculation common code",
-                "41  ": "                crc32_pclmul",
-                "42                crc32c_intel": "CRC32c (Castagnoli) optimization using Intel Hardware.",
-                "42                        i915": "Intel Graphics",
-                "42         ghash_clmulni_intel": "GHASH hash function, accelerated by PCLMULQDQ-NI",
-                "42                 aesni_intel": "Rijndael (AES) Cipher Algorithm, Intel AES-NI instructions optimized",
-                "42                      libaes": "Generic AES library",
-                "41  ": "                 crypto_simd",
-                "42                      cryptd": "Software async crypto daemon",
-                "42                        ahci": "AHCI SATA low-level driver",
-                "41  ": "                 glue_helper",
-                "42                i2c_algo_bit": "I2C-Bus bit-banging algorithm",
-                "42                     libahci": "Common AHCI SATA low-level routines",
-                "42                     psmouse": "PS/2 mouse driver",
-                "42              drm_kms_helper": "DRM KMS helper",
-                "42                      libata": "Library module for ATA devices",
-                "42                    xhci_pci": "xHCI PCI Host Controller Driver",
-                "42                       r8169": "RealTek RTL-8169 Gigabit Ethernet driver",
-                "42                         cec": "Device node registration for cec drivers",
-                "42                     realtek": "Realtek PHY driver",
-                "42                    xhci_hcd": "&apos;eXtensible&apos; Host Controller (xHC) Driver",
-                "41  ": "                 mdio_devres",
-                "42                    i2c_i801": "I801 SMBus driver",
-                "42                      libphy": "PHY library",
-                "42                   i2c_smbus": "SMBus protocol extensions support",
-                "42                         drm": "DRM shared core routines",
-                "41  ": "                     usbcore",
-                "42                    scsi_mod": "SCSI core",
-                "41  ": "                  usb_common",
-                "42                         fan": "ACPI Fan Driver",
-                "42                         wmi": "ACPI-WMI Mapping Driver",
-                "42                       video": "ACPI Video Driver",
-                "42                      button": "ACPI Button Driver",
+                "41": "nls_ascii",
+                "41": "nls_cp437",
+                "42snd_soc_core": "ALSA SoC Core",
+                "42vfat": "VFAT filesystem support",
+                "41": "fat",
+                "42snd_compress": "ALSA Compressed offload framework",
+                "42mei_hdcp": "MEI HDCP",
+                "42soundwire_cadence": "Cadence Soundwire Library",
+                "42snd_hda_codec": "HDA codec core",
+                "42x86_pkg_temp_thermal": "X86 PKG TEMP Thermal Driver",
+                "42intel_powerclamp": "Package Level C-state Idle Injection for Intel CPUs",
+                "42coretemp": "Intel Core temperature monitor",
+                "42dcdbas": "Dell Systems Management Base Driver (version 5.6.0-3.4)",
+                "42dell_smm_hwmon": "Dell laptop SMM BIOS hwmon driver",
+                "41": "kvm_intel",
+                "42snd_hda_core": "HD-audio bus",
+                "42rtsx_usb_ms": "Realtek USB Memstick Card Host Driver",
+                "42iTCO_wdt": "Intel TCO WatchDog Timer Driver",
+                "42snd_hwdep": "Hardware dependent layer",
+                "42intel_pmc_bxt": "Intel Broxton PMC driver",
+                "42iTCO_vendor_support": "Intel TCO Vendor Specific WatchDog Timer Driver Support",
+                "42soundwire_bus": "SoundWire bus",
+                "42memstick": "Sony MemoryStick core driver",
+                "42joydev": "Joystick device interfaces",
+                "42watchdog": "WatchDog Timer Driver Core",
+                "42at24": "Driver for most I2C EEPROMs",
+                "42sg": "SCSI generic (sg) driver",
+                "42snd_pcm": "Midlevel PCM code for ALSA.",
+                "41": "kvm",
+                "42snd_timer": "ALSA timer interface",
+                "42snd": "Advanced Linux Sound Architecture driver for soundcards.",
+                "42irqbypass": "IRQ bypass manager utility module",
+                "42tpm_crb": "TPM2 Driver",
+                "42mei_me": "Intel(R) Management Engine Interface",
+                "42soundcore": "Core sound module",
+                "42tpm_tis": "TPM Driver",
+                "41": "rapl",
+                "42mei": "Intel(R) Management Engine Interface",
+                "42tpm_tis_core": "TPM Driver",
+                "42intel_pch_thermal": "Intel PCH Thermal driver",
+                "42evdev": "Input driver event char devices",
+                "42tpm": "TPM Driver",
+                "41": "intel_cstate",
+                "42serio_raw": "Raw serio driver",
+                "41": "intel_uncore",
+                "42rng_core": "H/W Random Number Generator (RNG) driver",
+                "42efi_pstore": "EFI variable backend for pstore",
+                "42intel_pmc_core": "Intel PMC Core Driver",
+                "42acpi_pad": "ACPI Processor Aggregator Driver",
+                "42pcspkr": "PC Speaker beeper driver",
+                "42wmi_bmof": "WMI embedded Binary MOF driver",
+                "42intel_wmi_thunderbolt": "Intel WMI Thunderbolt force power driver",
+                "42parport_pc": "PC-style parallel port driver",
+                "41": "ppdev",
+                "41": "lp",
+                "41": "parport",
+                "42fuse": "Filesystem in Userspace",
+                "42configfs": "Simple RAM filesystem for user driven kernel subsystem configuration.",
+                "42efivarfs": "EFI Variable Filesystem",
+                "42ip_tables": "IPv4 packet filter",
+                "42x_tables": "{ip,ip6,arp,eb}_tables backend module",
+                "41": "autofs4",
+                "42ext4": "Fourth Extended Filesystem",
+                "42crc16": "CRC16 calculations",
+                "42mbcache": "Meta block cache (for extended attributes)",
+                "41": "jbd2",
+                "41": "btrfs",
+                "42blake2b_generic": "BLAKE2b generic implementation",
+                "42hid_generic": "HID generic driver",
+                "42usbhid": "USB HID core driver",
+                "41": "hid",
+                "42raid10": "RAID10 (striped mirror) personality for MD",
+                "42raid456": "RAID4/5/6 (striping with parity) personality for MD",
+                "42async_raid6_recov": "asynchronous RAID-6 recovery api",
+                "42async_memcpy": "asynchronous memcpy api",
+                "42async_pq": "asynchronous raid6 syndrome generation/validation",
+                "42async_xor": "asynchronous xor/xor-zero-sum api",
+                "42async_tx": "Asynchronous Bulk Memory Transactions API",
+                "41": "xor",
+                "42rtsx_usb_sdmmc": "Realtek USB SD/MMC Card Host Driver",
+                "41": "mmc_core",
+                "42rtsx_usb": "Realtek USB Card Reader Driver",
+                "42raid6_pq": "RAID6 Q-syndrome calculations",
+                "42libcrc32c": "CRC32c (Castagnoli) calculations",
+                "42crc32c_generic": "CRC32c (Castagnoli) calculations wrapper for lib/crc32c",
+                "42raid1": "RAID1 (mirroring) personality for MD",
+                "42raid0": "RAID0 (striping) personality for MD",
+                "42multipath": "simple multi-path personality for MD",
+                "42linear": "Linear device concatenation personality for MD",
+                "42md_mod": "MD RAID framework",
+                "42sd_mod": "SCSI disk (sd) driver",
+                "41": "t10_pi",
+                "42crc_t10dif": "T10 DIF CRC calculation (library API)",
+                "42crct10dif_generic": "T10 DIF CRC calculation.",
+                "42crct10dif_pclmul": "T10 DIF CRC calculation accelerated with PCLMULQDQ.",
+                "42crct10dif_common": "T10 DIF CRC calculation common code",
+                "41": "crc32_pclmul",
+                "42crc32c_intel": "CRC32c (Castagnoli) optimization using Intel Hardware.",
+                "42i915": "Intel Graphics",
+                "42ghash_clmulni_intel": "GHASH hash function, accelerated by PCLMULQDQ-NI",
+                "42aesni_intel": "Rijndael (AES) Cipher Algorithm, Intel AES-NI instructions optimized",
+                "42libaes": "Generic AES library",
+                "41": "crypto_simd",
+                "42cryptd": "Software async crypto daemon",
+                "42ahci": "AHCI SATA low-level driver",
+                "41": "glue_helper",
+                "42i2c_algo_bit": "I2C-Bus bit-banging algorithm",
+                "42libahci": "Common AHCI SATA low-level routines",
+                "42psmouse": "PS/2 mouse driver",
+                "42drm_kms_helper": "DRM KMS helper",
+                "42libata": "Library module for ATA devices",
+                "42xhci_pci": "xHCI PCI Host Controller Driver",
+                "42r8169": "RealTek RTL-8169 Gigabit Ethernet driver",
+                "42cec": "Device node registration for cec drivers",
+                "42realtek": "Realtek PHY driver",
+                "42xhci_hcd": "&apos;eXtensible&apos; Host Controller (xHC) Driver",
+                "41": "mdio_devres",
+                "42i2c_i801": "I801 SMBus driver",
+                "42libphy": "PHY library",
+                "42i2c_smbus": "SMBus protocol extensions support",
+                "42drm": "DRM shared core routines",
+                "41": "usbcore",
+                "42scsi_mod": "SCSI core",
+                "41": "usb_common",
+                "42fan": "ACPI Fan Driver",
+                "42wmi": "ACPI-WMI Mapping Driver",
+                "42video": "ACPI Video Driver",
+                "42button": "ACPI Button Driver",
             },
         },
         "12Boots": {
             "11Boots": {
                 "42Tue May 17 07:49": "5.10.0-14-amd64",
-                "42 Mon May 9 07:31": "5.10.0-14-amd64",
+                "42Mon May 9 07:31": "5.10.0-14-amd64",
                 "42Sun Apr 24 15:16": "5.10.0-13-amd64",
             },
         },
@@ -275,152 +275,152 @@
             "11Available Languages": {
                 "42en_US.utf8": "English locale for the USA",
                 "42zh_CN.utf8": "Chinese locale for Peoples Republic of China",
-                "42   C.UTF-8": "C locale",
+                "42C.UTF-8": "C locale",
             },
         },
         "12Memory Usage": {
             "11Memory": {
-                "31         MemTotal": [
+                "31MemTotal": [
                     "Total Memory",
                     "16294740 KiB"
                 ],
-                "31          MemFree": [
+                "31MemFree": [
                     "Free Memory",
-                    "3859504 KiB"
+                    "1789252 KiB"
                 ],
-                "31     MemAvailable": [
+                "31MemAvailable": [
                     "",
-                    "9674128 KiB"
+                    "4358644 KiB"
                 ],
-                "31          Buffers": [
+                "31Buffers": [
                     "",
-                    "1264768 KiB"
+                    "643492 KiB"
                 ],
-                "31           Cached": [
+                "31Cached": [
                     "",
-                    "3944328 KiB"
+                    "2764444 KiB"
                 ],
-                "31       SwapCached": [
+                "31SwapCached": [
                     "Cached Swap",
                     "0 KiB"
                 ],
-                "31           Active": [
+                "31Active": [
                     "",
-                    "2537064 KiB"
+                    "2118716 KiB"
                 ],
-                "31         Inactive": [
+                "31Inactive": [
                     "",
-                    "7237092 KiB"
+                    "10639436 KiB"
                 ],
-                "31     Active(anon)": [
+                "31Active(anon)": [
                     "",
-                    "60756 KiB"
+                    "583588 KiB"
                 ],
-                "31   Inactive(anon)": [
+                "31Inactive(anon)": [
                     "",
-                    "5329200 KiB"
+                    "10071108 KiB"
                 ],
-                "31     Active(file)": [
+                "31Active(file)": [
                     "",
-                    "2476308 KiB"
+                    "1535128 KiB"
                 ],
-                "31   Inactive(file)": [
+                "31Inactive(file)": [
                     "",
-                    "1907892 KiB"
+                    "568328 KiB"
                 ],
-                "31      Unevictable": [
+                "31Unevictable": [
                     "",
-                    "541256 KiB"
+                    "496328 KiB"
                 ],
-                "31          Mlocked": [
+                "31Mlocked": [
                     "",
-                    "80 KiB"
+                    "96 KiB"
                 ],
-                "31        SwapTotal": [
+                "31SwapTotal": [
                     "Virtual Memory",
                     "0 KiB"
                 ],
-                "31         SwapFree": [
+                "31SwapFree": [
                     "Free Virtual Memory",
                     "0 KiB"
                 ],
-                "31            Dirty": [
+                "31Dirty": [
                     "",
-                    "2332 KiB"
+                    "2364 KiB"
                 ],
-                "31        Writeback": [
-                    "",
-                    "0 KiB"
-                ],
-                "31        AnonPages": [
-                    "",
-                    "4938436 KiB"
-                ],
-                "31           Mapped": [
-                    "",
-                    "804160 KiB"
-                ],
-                "31            Shmem": [
-                    "",
-                    "832232 KiB"
-                ],
-                "31     KReclaimable": [
-                    "",
-                    "1775916 KiB"
-                ],
-                "31             Slab": [
-                    "",
-                    "1943316 KiB"
-                ],
-                "31     SReclaimable": [
-                    "",
-                    "1775916 KiB"
-                ],
-                "31       SUnreclaim": [
-                    "",
-                    "167400 KiB"
-                ],
-                "31      KernelStack": [
-                    "",
-                    "20720 KiB"
-                ],
-                "31       PageTables": [
-                    "",
-                    "77940 KiB"
-                ],
-                "31     NFS_Unstable": [
+                "31Writeback": [
                     "",
                     "0 KiB"
                 ],
-                "31           Bounce": [
+                "31AnonPages": [
+                    "",
+                    "9731960 KiB"
+                ],
+                "31Mapped": [
+                    "",
+                    "1042196 KiB"
+                ],
+                "31Shmem": [
+                    "",
+                    "1310804 KiB"
+                ],
+                "31KReclaimable": [
+                    "",
+                    "893348 KiB"
+                ],
+                "31Slab": [
+                    "",
+                    "1048596 KiB"
+                ],
+                "31SReclaimable": [
+                    "",
+                    "893348 KiB"
+                ],
+                "31SUnreclaim": [
+                    "",
+                    "155248 KiB"
+                ],
+                "31KernelStack": [
+                    "",
+                    "23920 KiB"
+                ],
+                "31PageTables": [
+                    "",
+                    "100236 KiB"
+                ],
+                "31NFS_Unstable": [
                     "",
                     "0 KiB"
                 ],
-                "31     WritebackTmp": [
+                "31Bounce": [
                     "",
                     "0 KiB"
                 ],
-                "31      CommitLimit": [
+                "31WritebackTmp": [
+                    "",
+                    "0 KiB"
+                ],
+                "31CommitLimit": [
                     "",
                     "8147368 KiB"
                 ],
-                "31     Committed_AS": [
+                "31Committed_AS": [
                     "",
-                    "17313492 KiB"
+                    "23153696 KiB"
                 ],
-                "31     VmallocTotal": [
+                "31VmallocTotal": [
                     "",
                     "-1 KiB"
                 ],
-                "31      VmallocUsed": [
+                "31VmallocUsed": [
                     "",
-                    "40932 KiB"
+                    "44252 KiB"
                 ],
-                "31     VmallocChunk": [
+                "31VmallocChunk": [
                     "",
                     "0 KiB"
                 ],
-                "31           Percpu": [
+                "31Percpu": [
                     "",
                     "3072 KiB"
                 ],
@@ -428,59 +428,59 @@
                     "",
                     "0 KiB"
                 ],
-                "31    AnonHugePages": [
+                "31AnonHugePages": [
                     "",
-                    "1447936 KiB"
+                    "2826240 KiB"
                 ],
-                "31   ShmemHugePages": [
-                    "",
-                    "0 KiB"
-                ],
-                "31   ShmemPmdMapped": [
+                "31ShmemHugePages": [
                     "",
                     "0 KiB"
                 ],
-                "31    FileHugePages": [
+                "31ShmemPmdMapped": [
                     "",
                     "0 KiB"
                 ],
-                "31    FilePmdMapped": [
+                "31FileHugePages": [
                     "",
                     "0 KiB"
                 ],
-                "31  HugePages_Total": [
+                "31FilePmdMapped": [
+                    "",
+                    "0 KiB"
+                ],
+                "31HugePages_Total": [
                     "",
                     "0"
                 ],
-                "31   HugePages_Free": [
+                "31HugePages_Free": [
                     "",
                     "0"
                 ],
-                "31   HugePages_Rsvd": [
+                "31HugePages_Rsvd": [
                     "",
                     "0"
                 ],
-                "31   HugePages_Surp": [
+                "31HugePages_Surp": [
                     "",
                     "0"
                 ],
-                "31     Hugepagesize": [
+                "31Hugepagesize": [
                     "",
                     "2048 KiB"
                 ],
-                "31          Hugetlb": [
+                "31Hugetlb": [
                     "",
                     "0 KiB"
                 ],
-                "31      DirectMap4k": [
+                "31DirectMap4k": [
                     "",
-                    "419756 KiB"
+                    "454572 KiB"
                 ],
-                "31      DirectMap2M": [
+                "31DirectMap2M": [
                     "",
-                    "15210496 KiB"
+                    "15175680 KiB"
                 ],
-                "31      DirectMap1G": [
+                "31DirectMap1G": [
                     "",
                     "1048576 KiB"
                 ],
@@ -488,35 +488,35 @@
         },
         "12Filesystems": {
             "11Mounted File Systems": {
-                "31      udev": [
+                "31udev": [
                     "/dev",
                     "0.00 % (7.7 GiB of 7.7 GiB)"
                 ],
-                "31     tmpfs": [
+                "31tmpfs": [
                     "/run",
                     "0.10 % (1.6 GiB of 1.6 GiB)"
                 ],
-                "31 /dev/sda5": [
+                "31/dev/sda5": [
                     "/",
                     "78.37 % (26.1 GiB of 120.6 GiB)"
                 ],
-                "31     tmpfs": [
+                "31tmpfs": [
                     "/dev/shm",
-                    "2.46 % (7.6 GiB of 7.8 GiB)"
+                    "2.01 % (7.6 GiB of 7.8 GiB)"
                 ],
-                "31     tmpfs": [
+                "31tmpfs": [
                     "/run/lock",
                     "0.08 % (5.0 MiB of 5.0 MiB)"
                 ],
-                "31     tmpfs": [
+                "31tmpfs": [
                     "/tmp",
-                    "0.76 % (7.7 GiB of 7.8 GiB)"
+                    "7.71 % (7.2 GiB of 7.8 GiB)"
                 ],
-                "31 /dev/sda1": [
+                "31/dev/sda1": [
                     "/boot/efi",
                     "31.06 % (66.2 MiB of 96.0 MiB)"
                 ],
-                "31     tmpfs": [
+                "31tmpfs": [
                     "/run/user/1001",
                     "0.01 % (1.6 GiB of 1.6 GiB)"
                 ],
@@ -524,356 +524,356 @@
         },
         "12Display": {
             "11Session": {
-                "42      Type": "x11",
+                "42Type": "x11",
             },
             "11Wayland": {
                 "42Current Display Name": "(Not Available)",
             },
             "11X Server": {
                 "42Current Display Name": ":0",
-                "42              Vendor": "The X.Org Foundation",
-                "42             Version": "1.20.11",
-                "42      Release Number": "12011000",
+                "42Vendor": "The X.Org Foundation",
+                "42Version": "1.20.11",
+                "42Release Number": "12011000",
             },
             "11Screens": {
-                "42  Screen 0": "1920x1080 pixels",
+                "42Screen 0": "1920x1080 pixels",
             },
             "11Outputs (XRandR)": {
-                "42    HDMI-1": "Disconnected; Unused",
-                "42      DP-1": "Connected; 1920x1080 pixels, offset (0, 0)",
+                "42HDMI-1": "Disconnected; Unused",
+                "42DP-1": "Connected; 1920x1080 pixels, offset (0, 0)",
             },
             "11OpenGL (GLX)": {
-                "42                                  Vendor": "Intel",
-                "42                                Renderer": "Mesa Intel(R) HD Graphics 530 (SKL GT2)",
-                "42                        Direct Rendering": "Yes",
-                "42                 Version (Compatibility)": "4.6 (Compatibility Profile) Mesa 20.3.5",
+                "42Vendor": "Intel",
+                "42Renderer": "Mesa Intel(R) HD Graphics 530 (SKL GT2)",
+                "42Direct Rendering": "Yes",
+                "42Version (Compatibility)": "4.6 (Compatibility Profile) Mesa 20.3.5",
                 "42Shading Language Version (Compatibility)": "4.60",
-                "42                          Version (Core)": "4.6 (Core Profile) Mesa 20.3.5",
-                "42         Shading Language Version (Core)": "4.60",
-                "42                            Version (ES)": "OpenGL ES 3.2 Mesa 20.3.5",
-                "42           Shading Language Version (ES)": "OpenGL ES GLSL ES 3.20",
-                "42                             GLX Version": "1.4",
+                "42Version (Core)": "4.6 (Core Profile) Mesa 20.3.5",
+                "42Shading Language Version (Core)": "4.60",
+                "42Version (ES)": "OpenGL ES 3.2 Mesa 20.3.5",
+                "42Shading Language Version (ES)": "OpenGL ES GLSL ES 3.20",
+                "42GLX Version": "1.4",
             },
         },
         "12Environment Variables": {
             "11Environment Variables": {
-                "42                      SHELL": "/usr/bin/zsh",
-                "42                   WINDOWID": "98566151",
-                "42           QT_ACCESSIBILITY": "1",
-                "42    KDED_STARTED_BY_KDEINIT": "1",
-                "42                  COLORTERM": "truecolor",
-                "42           XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session1",
-                "42              GTK_IM_MODULE": "ibus",
-                "42                   LANGUAGE": "zh_CN:en_US",
-                "42                   _P9K_TTY": "/dev/pts/2",
-                "42                 LC_ADDRESS": "zh_CN.UTF-8",
-                "42                    LC_NAME": "zh_CN.UTF-8",
-                "42              SSH_AUTH_SOCK": "/tmp/ssh-9E3qpAXTK36K/agent.1595",
-                "42                    P9K_TTY": "old",
-                "42           SHELL_SESSION_ID": "43bd853db9c440389fc9ad5875c38516",
-                "42                 XMODIFIERS": "@im=ibus",
-                "42            DESKTOP_SESSION": "plasma",
-                "42                LC_MONETARY": "zh_CN.UTF-8",
-                "42              SSH_AGENT_PID": "1657",
-                "42               GTK_RC_FILES": "/etc/gtk/gtkrc:/home/chenlianghong/.gtkrc:/home/chenlianghong/.config/gtkrc",
-                "42               XCURSOR_SIZE": "24",
-                "42                GTK_MODULES": "gail:atk-bridge",
-                "42                   XDG_SEAT": "seat0",
-                "42                        PWD": "/home/chenlianghong/Projects/hardinfo/build",
-                "42        XDG_SESSION_DESKTOP": "KDE",
-                "42                    LOGNAME": "chenlianghong",
-                "42           XDG_SESSION_TYPE": "x11",
-                "42             GPG_AGENT_INFO": "/run/user/1001/gnupg/S.gpg-agent:0:1",
-                "42                 XAUTHORITY": "/home/chenlianghong/.Xauthority",
-                "42              GTK2_RC_FILES": "/etc/gtk-2.0/gtkrc:/home/chenlianghong/.gtkrc-2.0:/home/chenlianghong/.config/gtkrc-2.0",
-                "42                       HOME": "/home/chenlianghong",
-                "42                   LC_PAPER": "zh_CN.UTF-8",
-                "42                       LANG": "zh_CN.UTF-8",
-                "42                   HISTFILE": "/home/chenlianghong/.zsh_history",
-                "42                  LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
-                "42        XDG_CURRENT_DESKTOP": "KDE",
-                "42       KONSOLE_DBUS_SERVICE": ":1.139",
-                "42       KONSOLE_DBUS_SESSION": "/Sessions/9",
-                "41  ": "                PROFILEHOME",
-                "42              XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
-                "42                   SAVEHIST": "100",
-                "42            KONSOLE_VERSION": "201203",
-                "42                     GOROOT": "/home/chenlianghong/Programs/go1.18.1.linux-amd64",
-                "42          CLUTTER_IM_MODULE": "ibus",
-                "42            KDE_SESSION_UID": "1001",
-                "42          XDG_SESSION_CLASS": "user",
-                "42                       TERM": "xterm",
-                "42          LC_IDENTIFICATION": "zh_CN.UTF-8",
-                "42                       USER": "chenlianghong",
-                "42                  COLORFGBG": "15;0",
-                "42        KDE_SESSION_VERSION": "5",
-                "42         PAM_KWALLET5_LOGIN": "/run/user/1001/kwallet5.socket",
-                "42                    GOPROXY": "https://goproxy.cn,direct",
-                "42                    DISPLAY": ":0",
-                "42                      SHLVL": "2",
-                "42               LC_TELEPHONE": "zh_CN.UTF-8",
-                "42               QT_IM_MODULE": "ibus",
-                "42             LC_MEASUREMENT": "zh_CN.UTF-8",
-                "42                   XDG_VTNR": "7",
-                "42             XDG_SESSION_ID": "4",
-                "42            XDG_RUNTIME_DIR": "/run/user/1001",
-                "42                GO111MODULE": "on",
-                "42                  NODE_PATH": "/lib/node_modules",
-                "42                    LC_TIME": "zh_CN.UTF-8",
-                "42                    P9K_SSH": "0",
+                "42SHELL": "/usr/bin/zsh",
+                "42WINDOWID": "98566151",
+                "42QT_ACCESSIBILITY": "1",
+                "42KDED_STARTED_BY_KDEINIT": "1",
+                "42COLORTERM": "truecolor",
+                "42XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session1",
+                "42GTK_IM_MODULE": "ibus",
+                "42LANGUAGE": "zh_CN:en_US",
+                "42_P9K_TTY": "/dev/pts/2",
+                "42LC_ADDRESS": "zh_CN.UTF-8",
+                "42LC_NAME": "zh_CN.UTF-8",
+                "42SSH_AUTH_SOCK": "/tmp/ssh-9E3qpAXTK36K/agent.1595",
+                "42P9K_TTY": "old",
+                "42SHELL_SESSION_ID": "43bd853db9c440389fc9ad5875c38516",
+                "42XMODIFIERS": "@im=ibus",
+                "42DESKTOP_SESSION": "plasma",
+                "42LC_MONETARY": "zh_CN.UTF-8",
+                "42SSH_AGENT_PID": "1657",
+                "42GTK_RC_FILES": "/etc/gtk/gtkrc:/home/chenlianghong/.gtkrc:/home/chenlianghong/.config/gtkrc",
+                "42XCURSOR_SIZE": "24",
+                "42GTK_MODULES": "gail:atk-bridge",
+                "42XDG_SEAT": "seat0",
+                "42PWD": "/home/chenlianghong/Projects/hardinfo/build",
+                "42XDG_SESSION_DESKTOP": "KDE",
+                "42LOGNAME": "chenlianghong",
+                "42XDG_SESSION_TYPE": "x11",
+                "42GPG_AGENT_INFO": "/run/user/1001/gnupg/S.gpg-agent:0:1",
+                "42XAUTHORITY": "/home/chenlianghong/.Xauthority",
+                "42GTK2_RC_FILES": "/etc/gtk-2.0/gtkrc:/home/chenlianghong/.gtkrc-2.0:/home/chenlianghong/.config/gtkrc-2.0",
+                "42HOME": "/home/chenlianghong",
+                "42LC_PAPER": "zh_CN.UTF-8",
+                "42LANG": "zh_CN.UTF-8",
+                "42HISTFILE": "/home/chenlianghong/.zsh_history",
+                "42LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+                "42XDG_CURRENT_DESKTOP": "KDE",
+                "42KONSOLE_DBUS_SERVICE": ":1.139",
+                "42KONSOLE_DBUS_SESSION": "/Sessions/9",
+                "41": "PROFILEHOME",
+                "42XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
+                "42SAVEHIST": "100",
+                "42KONSOLE_VERSION": "201203",
+                "42GOROOT": "/home/chenlianghong/Programs/go1.18.1.linux-amd64",
+                "42CLUTTER_IM_MODULE": "ibus",
+                "42KDE_SESSION_UID": "1001",
+                "42XDG_SESSION_CLASS": "user",
+                "42TERM": "xterm",
+                "42LC_IDENTIFICATION": "zh_CN.UTF-8",
+                "42USER": "chenlianghong",
+                "42COLORFGBG": "15;0",
+                "42KDE_SESSION_VERSION": "5",
+                "42PAM_KWALLET5_LOGIN": "/run/user/1001/kwallet5.socket",
+                "42GOPROXY": "https://goproxy.cn,direct",
+                "42DISPLAY": ":0",
+                "42SHLVL": "2",
+                "42LC_TELEPHONE": "zh_CN.UTF-8",
+                "42QT_IM_MODULE": "ibus",
+                "42LC_MEASUREMENT": "zh_CN.UTF-8",
+                "42XDG_VTNR": "7",
+                "42XDG_SESSION_ID": "4",
+                "42XDG_RUNTIME_DIR": "/run/user/1001",
+                "42GO111MODULE": "on",
+                "42NODE_PATH": "/lib/node_modules",
+                "42LC_TIME": "zh_CN.UTF-8",
+                "42P9K_SSH": "0",
                 "42QT_AUTO_SCREEN_SCALE_FACTOR": "0",
-                "42              XCURSOR_THEME": "breeze_cursors",
-                "42           KDE_FULL_SESSION": "true",
-                "42                       PATH": "/home/chenlianghong/.local/bin:/home/chenlianghong/.ssh/sh:/home/chenlianghong/shell:/home/chenlianghong/.cache/.npm-global/bin:/home/chenlianghong/Programs/node-v16.15.0-linux-x64/bin:/home/chenlianghong/Programs/go1.18.1.linux-amd64/bin:/home/chenlianghong/.cache/.go-global/bin:/home/chenlianghong/.cache/.go-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/games",
-                "42   DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1001/bus",
-                "42  KDE_APPLICATIONS_AS_SCOPE": "1",
-                "42                 LC_NUMERIC": "zh_CN.UTF-8",
-                "42                     OLDPWD": "/home/chenlianghong/Projects/hardinfo",
-                "42                     GOPATH": "/home/chenlianghong/.cache/.go-global",
-                "42        KONSOLE_DBUS_WINDOW": "/Windows/1",
-                "42                          _": "./hardinfo",
+                "42XCURSOR_THEME": "breeze_cursors",
+                "42KDE_FULL_SESSION": "true",
+                "42PATH": "/home/chenlianghong/.local/bin:/home/chenlianghong/.ssh/sh:/home/chenlianghong/shell:/home/chenlianghong/.cache/.npm-global/bin:/home/chenlianghong/Programs/node-v16.15.0-linux-x64/bin:/home/chenlianghong/Programs/go1.18.1.linux-amd64/bin:/home/chenlianghong/.cache/.go-global/bin:/home/chenlianghong/.cache/.go-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/games",
+                "42DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1001/bus",
+                "42KDE_APPLICATIONS_AS_SCOPE": "1",
+                "42LC_NUMERIC": "zh_CN.UTF-8",
+                "42OLDPWD": "/home/chenlianghong/Projects/hardinfo",
+                "42GOPATH": "/home/chenlianghong/.cache/.go-global",
+                "42KONSOLE_DBUS_WINDOW": "/Windows/1",
+                "42_": "./hardinfo",
             },
         },
         "12Development": {
             "11Scripting Languages": {
-                "42      Gambas3 (gbr3)": "Not found",
-                "42    Python (default)": "Not found",
-                "42             Python2": "2.7.18",
-                "42             Python3": "3.9.2",
-                "42                Perl": "5.32.1",
-                "42          Perl6 (VM)": "Not found",
-                "42               Perl6": "Not found",
-                "42                 PHP": "7.4.28",
-                "42                Ruby": "Not found",
-                "42                Bash": "5.1.4(1)-release",
+                "42Gambas3 (gbr3)": "Not found",
+                "42Python (default)": "Not found",
+                "42Python2": "2.7.18",
+                "42Python3": "3.9.2",
+                "42Perl": "5.32.1",
+                "42Perl6 (VM)": "Not found",
+                "42Perl6": "Not found",
+                "42PHP": "7.4.28",
+                "42Ruby": "Not found",
+                "42Bash": "5.1.4(1)-release",
                 "42JavaScript (Node.js)": "16.15.0",
-                "42                 awk": "Not found",
+                "42awk": "Not found",
             },
             "11Compilers": {
-                "42       C (GCC)": "10.2.1",
-                "42     C (Clang)": "Not found",
-                "42       D (dmd)": "Not found",
+                "42C (GCC)": "10.2.1",
+                "42C (Clang)": "Not found",
+                "42D (dmd)": "Not found",
                 "42Gambas3 (gbc3)": "Not found",
-                "42          Java": "Not found",
-                "42    C♯ (mcs)": "Not found",
-                "42          Vala": "Not found",
-                "42 Haskell (GHC)": "Not found",
-                "42    FreePascal": "Not found",
-                "42            Go": "1.18.1 ",
-                "42          Rust": "Not found",
+                "42Java": "Not found",
+                "42C♯ (mcs)": "Not found",
+                "42Vala": "Not found",
+                "42Haskell (GHC)": "Not found",
+                "42FreePascal": "Not found",
+                "42Go": "1.18.1 ",
+                "42Rust": "Not found",
             },
             "11Tools": {
-                "42       make": "4.3",
-                "42      ninja": "1.10.1",
-                "42        GDB": "(Debian 10.1-1.7) 10.1.90.20210103-git",
-                "42       LLDB": "Not found",
-                "42     strace": "5.10",
-                "42   valgrind": "Not found",
-                "42      QMake": "Not found",
-                "42      CMake": "3.18.4",
+                "42make": "4.3",
+                "42ninja": "1.10.1",
+                "42GDB": "(Debian 10.1-1.7) 10.1.90.20210103-git",
+                "42LLDB": "Not found",
+                "42strace": "5.10",
+                "42valgrind": "Not found",
+                "42QMake": "Not found",
+                "42CMake": "3.18.4",
                 "42Gambas3 IDE": "Not found",
-                "42    Radare2": "Not found",
-                "42     ltrace": "Not found",
-                "42 Powershell": "Not found",
+                "42Radare2": "Not found",
+                "42ltrace": "Not found",
+                "42Powershell": "Not found",
             },
         },
         "12Users": {
             "11Users": {
-                "42             root": "root",
-                "42           daemon": "daemon",
-                "42              bin": "bin",
-                "42              sys": "sys",
-                "42             sync": "sync",
-                "42            games": "games",
-                "42              man": "man",
-                "42               lp": "lp",
-                "42             mail": "mail",
-                "42             news": "news",
-                "42             uucp": "uucp",
-                "42            proxy": "proxy",
-                "42         www-data": "www-data",
-                "42           backup": "backup",
-                "42             list": "Mailing List Manager",
-                "42              irc": "ircd",
-                "42            gnats": "Gnats Bug-Reporting System (admin)",
-                "42           nobody": "nobody",
-                "41  ": "             _apt",
-                "42 systemd-timesync": "systemd Time Synchronization",
-                "42  systemd-network": "systemd Network Management",
-                "42  systemd-resolve": "systemd Resolver",
-                "42              tss": "TPM software stack",
-                "41  ": "       messagebus",
-                "41  ": "      Debian-exim",
-                "41  ": "            uuidd",
-                "42    avahi-autoipd": "Avahi autoip daemon",
-                "42           usbmux": "usbmux daemon",
-                "42            rtkit": "RealtimeKit",
-                "42          dnsmasq": "dnsmasq",
-                "42            avahi": "Avahi mDNS daemon",
+                "42root": "root",
+                "42daemon": "daemon",
+                "42bin": "bin",
+                "42sys": "sys",
+                "42sync": "sync",
+                "42games": "games",
+                "42man": "man",
+                "42lp": "lp",
+                "42mail": "mail",
+                "42news": "news",
+                "42uucp": "uucp",
+                "42proxy": "proxy",
+                "42www-data": "www-data",
+                "42backup": "backup",
+                "42list": "Mailing List Manager",
+                "42irc": "ircd",
+                "42gnats": "Gnats Bug-Reporting System (admin)",
+                "42nobody": "nobody",
+                "41": "_apt",
+                "42systemd-timesync": "systemd Time Synchronization",
+                "42systemd-network": "systemd Network Management",
+                "42systemd-resolve": "systemd Resolver",
+                "42tss": "TPM software stack",
+                "41": "messagebus",
+                "41": "Debian-exim",
+                "41": "uuidd",
+                "42avahi-autoipd": "Avahi autoip daemon",
+                "42usbmux": "usbmux daemon",
+                "42rtkit": "RealtimeKit",
+                "42dnsmasq": "dnsmasq",
+                "42avahi": "Avahi mDNS daemon",
                 "42speech-dispatcher": "Speech Dispatcher",
-                "42            pulse": "PulseAudio daemon",
-                "41  ": "            saned",
-                "42           colord": "colord colour management daemon",
-                "41  ": "          geoclue",
-                "42             sddm": "Simple Desktop Display Manager",
-                "42              dev": "dev",
-                "42 systemd-coredump": "systemd Core Dumper",
-                "41  ": "             sshd",
-                "42    chenlianghong": "lee",
-                "41  ": "         stunnel4",
-                "42             mate": "mate",
-                "42     libvirt-qemu": "Libvirt Qemu",
+                "42pulse": "PulseAudio daemon",
+                "41": "saned",
+                "42colord": "colord colour management daemon",
+                "41": "geoclue",
+                "42sddm": "Simple Desktop Display Manager",
+                "42dev": "dev",
+                "42systemd-coredump": "systemd Core Dumper",
+                "41": "sshd",
+                "42chenlianghong": "lee",
+                "41": "stunnel4",
+                "42mate": "mate",
+                "42libvirt-qemu": "Libvirt Qemu",
             },
         },
         "12Groups": {
             "11Group": {
-                "42            root": "0",
-                "42          daemon": "1",
-                "42             bin": "2",
-                "42             sys": "3",
-                "42             adm": "4",
-                "42             tty": "5",
-                "42            disk": "6",
-                "42              lp": "7",
-                "42            mail": "8",
-                "42            news": "9",
-                "42            uucp": "10",
-                "42             man": "12",
-                "42           proxy": "13",
-                "42            kmem": "15",
-                "42         dialout": "20",
-                "42             fax": "21",
-                "42           voice": "22",
-                "42           cdrom": "24",
-                "42          floppy": "25",
-                "42            tape": "26",
-                "42            sudo": "27",
-                "42           audio": "29",
-                "42             dip": "30",
-                "42        www-data": "33",
-                "42          backup": "34",
-                "42        operator": "37",
-                "42            list": "38",
-                "42             irc": "39",
-                "42             src": "40",
-                "42           gnats": "41",
-                "42          shadow": "42",
-                "42            utmp": "43",
-                "42           video": "44",
-                "42            sasl": "45",
-                "42         plugdev": "46",
-                "42           staff": "50",
-                "42           games": "60",
-                "42           users": "100",
-                "42         nogroup": "65534",
+                "42root": "0",
+                "42daemon": "1",
+                "42bin": "2",
+                "42sys": "3",
+                "42adm": "4",
+                "42tty": "5",
+                "42disk": "6",
+                "42lp": "7",
+                "42mail": "8",
+                "42news": "9",
+                "42uucp": "10",
+                "42man": "12",
+                "42proxy": "13",
+                "42kmem": "15",
+                "42dialout": "20",
+                "42fax": "21",
+                "42voice": "22",
+                "42cdrom": "24",
+                "42floppy": "25",
+                "42tape": "26",
+                "42sudo": "27",
+                "42audio": "29",
+                "42dip": "30",
+                "42www-data": "33",
+                "42backup": "34",
+                "42operator": "37",
+                "42list": "38",
+                "42irc": "39",
+                "42src": "40",
+                "42gnats": "41",
+                "42shadow": "42",
+                "42utmp": "43",
+                "42video": "44",
+                "42sasl": "45",
+                "42plugdev": "46",
+                "42staff": "50",
+                "42games": "60",
+                "42users": "100",
+                "42nogroup": "65534",
                 "42systemd-timesync": "101",
-                "42 systemd-journal": "102",
-                "42 systemd-network": "103",
-                "42 systemd-resolve": "104",
-                "42           input": "105",
-                "42             kvm": "106",
-                "42          render": "107",
-                "42         crontab": "108",
-                "42          netdev": "109",
-                "42             tss": "110",
-                "42      messagebus": "111",
-                "42     Debian-exim": "112",
-                "42           uuidd": "113",
-                "42             ssh": "114",
-                "42       bluetooth": "115",
-                "42        ssl-cert": "116",
-                "42   avahi-autoipd": "117",
-                "42           rtkit": "118",
-                "42             i2c": "119",
-                "42           avahi": "120",
-                "42         lpadmin": "121",
-                "42           pulse": "122",
-                "42    pulse-access": "123",
-                "42         scanner": "124",
-                "42           saned": "125",
-                "42          colord": "126",
-                "42         geoclue": "127",
-                "42            sddm": "128",
-                "42             dev": "1000",
+                "42systemd-journal": "102",
+                "42systemd-network": "103",
+                "42systemd-resolve": "104",
+                "42input": "105",
+                "42kvm": "106",
+                "42render": "107",
+                "42crontab": "108",
+                "42netdev": "109",
+                "42tss": "110",
+                "42messagebus": "111",
+                "42Debian-exim": "112",
+                "42uuidd": "113",
+                "42ssh": "114",
+                "42bluetooth": "115",
+                "42ssl-cert": "116",
+                "42avahi-autoipd": "117",
+                "42rtkit": "118",
+                "42i2c": "119",
+                "42avahi": "120",
+                "42lpadmin": "121",
+                "42pulse": "122",
+                "42pulse-access": "123",
+                "42scanner": "124",
+                "42saned": "125",
+                "42colord": "126",
+                "42geoclue": "127",
+                "42sddm": "128",
+                "42dev": "1000",
                 "42systemd-coredump": "999",
-                "42          nixbld": "30000",
-                "42          docker": "129",
-                "42       vboxusers": "130",
-                "42   chenlianghong": "1001",
-                "42        stunnel4": "131",
-                "42            mate": "1002",
-                "42            rdma": "132",
-                "42         libvirt": "133",
-                "42    libvirt-qemu": "64055",
+                "42nixbld": "30000",
+                "42docker": "129",
+                "42vboxusers": "130",
+                "42chenlianghong": "1001",
+                "42stunnel4": "131",
+                "42mate": "1002",
+                "42rdma": "132",
+                "42libvirt": "133",
+                "42libvirt-qemu": "64055",
             },
         },
     },
     "13Devices": {
         "12System DMI": {
             "11Product": {
-                "42         Name": "Vostro 3650",
-                "42       Family": "[X]""",
-                "42       Vendor": "Dell Inc.",
-                "42      Version": "X00",
+                "42Name": "Vostro 3650",
+                "42Family": "[X]\"\"",
+                "42Vendor": "Dell Inc.",
+                "42Version": "X00",
                 "42Serial Number": "(Not available; Perhaps try running HardInfo as root.)",
-                "42          SKU": "Vostro 3650",
+                "42SKU": "Vostro 3650",
             },
             "11BIOS": {
-                "42      Date": "04/25/2016",
-                "42    Vendor": "Dell Inc.",
-                "42   Version": "3.2.3",
+                "42Date": "04/25/2016",
+                "42Vendor": "Dell Inc.",
+                "42Version": "3.2.3",
             },
             "11Board": {
-                "42         Name": "0VGHXY",
-                "42       Vendor": "Dell Inc.",
-                "42      Version": "A01",
+                "42Name": "0VGHXY",
+                "42Vendor": "Dell Inc.",
+                "42Version": "A01",
                 "42Serial Number": "(Not available; Perhaps try running HardInfo as root.)",
-                "42    Asset Tag": "[X]""",
+                "42Asset Tag": "[X]\"\"",
             },
             "11Chassis": {
-                "42       Vendor": "Dell Inc.",
-                "42         Type": "[3] Desktop",
-                "42      Version": "Not Specified",
+                "42Vendor": "Dell Inc.",
+                "42Type": "[3] Desktop",
+                "42Version": "Not Specified",
                 "42Serial Number": "(Not available; Perhaps try running HardInfo as root.)",
-                "42    Asset Tag": "[X]""",
+                "42Asset Tag": "[X]\"\"",
             },
         },
         "12Processor": {
             "11Processors": {
-                "31       all": [
+                "31all": [
                     "Summary",
                     ""
                 ],
                 "11Package Information": {
-                    "42              Name": "Intel Core i5-6400",
-                    "42          Topology": "1 physical processor; 4 cores; 4 threads",
+                    "42Name": "Intel Core i5-6400",
+                    "42Topology": "1 physical processor; 4 cores; 4 threads",
                     "42Logical CPU Config": "4x 3300.00 MHz",
                     "11Clocks": {
                         "42800.00-3300.00 MHz": "4x",
                         "11Caches": {
-                            "42       Level 1 (Data)": "4x 32KB (128KB), 8-way set-associative, 64 sets",
+                            "42Level 1 (Data)": "4x 32KB (128KB), 8-way set-associative, 64 sets",
                             "42Level 1 (Instruction)": "4x 32KB (128KB), 8-way set-associative, 64 sets",
-                            "42    Level 2 (Unified)": "4x 256KB (1024KB), 4-way set-associative, 1024 sets",
-                            "42    Level 3 (Unified)": "1x 6144KB (6144KB), 12-way set-associative, 8192 sets",
+                            "42Level 2 (Unified)": "4x 256KB (1024KB), 4-way set-associative, 1024 sets",
+                            "42Level 3 (Unified)": "1x 6144KB (6144KB), 12-way set-associative, 8192 sets",
                             "11Socket Information": {
-                                "42    Result": "(Not available; Perhaps try running HardInfo as root.)",
+                                "42Result": "(Not available; Perhaps try running HardInfo as root.)",
                             }
-"31      cpu0": [
+"31cpu0": [
                                 "0:0",
                                 "Intel Core i5-6400",
                                 "3300.00 MHz"
                             ],
-                            "31      cpu1": [
+                            "31cpu1": [
                                 "0:1",
                                 "Intel Core i5-6400",
                                 "3300.00 MHz"
                             ],
-                            "31      cpu2": [
+                            "31cpu2": [
                                 "0:2",
                                 "Intel Core i5-6400",
                                 "3300.00 MHz"
                             ],
-                            "31      cpu3": [
+                            "31cpu3": [
                                 "0:3",
                                 "Intel Core i5-6400",
                                 "3300.00 MHz"
@@ -882,24 +882,24 @@
                     },
                     "12Graphics Processors": {
                         "11GPUs": {
-                            "42     card0": "Dell Intel HD Graphics 530",
+                            "42card0": "Dell Intel HD Graphics 530",
                             "11Device Information": {
-                                "42  Location": "PCI/0000:00:02.0",
+                                "42Location": "PCI/0000:00:02.0",
                                 "42DRM Device": "/dev/dri/card0",
-                                "42     Class": "[0300] VGA compatible controller",
-                                "42    Vendor": "[8086] Intel Corporation",
-                                "42    Device": "[1912] HD Graphics 530",
-                                "42   SVendor": "[1028] Dell",
-                                "42   SDevice": "[06f9] (Unknown)",
-                                "42  Revision": "06",
+                                "42Class": "[0300] VGA compatible controller",
+                                "42Vendor": "[8086] Intel Corporation",
+                                "42Device": "[1912] HD Graphics 530",
+                                "42SVendor": "[1028] Dell",
+                                "42SDevice": "[06f9] (Unknown)",
+                                "42Revision": "06",
                                 "11Clocks": {
-                                    "42      Core": "350.00-950.00 MHz",
-                                    "42    Memory": "(Unknown)",
+                                    "42Core": "350.00-950.00 MHz",
+                                    "42Memory": "(Unknown)",
                                     "11PCI Express": {
                                         "42Maximum Link Width": "x255",
                                         "42Maximum Link Speed": "0.0 GT/s",
                                         "11Driver": {
-                                            "42        In Use": "i915",
+                                            "42In Use": "i915",
                                             "42Kernel Modules": "i915",
                                         }
                                     },
@@ -908,66 +908,62 @@
                                     "11Monitors": {
                                         "42card0-DP-1": "Dell 23.8″ DELL E2421HN",
                                         "11Connection": {
-                                            "42                   DRM": "card0-DP-1",
-                                            "42                Status": "connected enabled",
-                                            "42           Signal Type": "Digital",
-                                            "42             Interface": "[5] DisplayPort",
+                                            "42DRM": "card0-DP-1",
+                                            "42Status": "connected enabled",
+                                            "42Signal Type": "Digital",
+                                            "42Interface": "[5] DisplayPort",
                                             "42Bits per Color Channel": "8",
-                                            "42    Speaker Allocation": "(Unspecified)",
+                                            "42Speaker Allocation": "(Unspecified)",
                                             "11Output (Max)": {
-                                                "42VESA EDID STD": "1920x1080@60Hz 53.0x30.0cm (24.0") progressive normal",
-"42VESA EDID DTD": "1920x1080@60Hz 52.7x29.6cm (23.8") progressive normal",
-
-"11EDID Device": {
-                                                    "42          Vendor": "[PNP:DEL] Dell",
-                                                    "42            Name": "DELL E2421HN",
-                                                    "42           Model": "[f128-43455242] 61736-1128616514",
-                                                    "42          Serial": "8C1NG93",
+                                                "42VESA EDID STD": "1920x1080@60Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                "42VESA EDID DTD": "1920x1080@60Hz 52.7x29.6cm (23.8\") progressive normal",
+                                                "11EDID Device": {
+                                                    "42Vendor": "[PNP:DEL] Dell",
+                                                    "42Name": "DELL E2421HN",
+                                                    "42Model": "[f128-43455242] 61736-1128616514",
+                                                    "42Serial": "8C1NG93",
                                                     "42Manufacture Date": "Week 3 of 2021",
                                                     "11EDID Meta": {
-                                                        "42       Data Size": "128 bytes",
-                                                        "42         Version": "1.4",
+                                                        "42Data Size": "128 bytes",
+                                                        "42Version": "1.4",
                                                         "42Extension Blocks": "0",
-                                                        "42     Extended to": "(None)",
-                                                        "42        Checksum": "Ok ",
+                                                        "42Extended to": "(None)",
+                                                        "42Checksum": "Ok ",
                                                         "11EDID Descriptors": {
                                                             "42descriptor0": "([00] detailed timing descriptor) {...}",
                                                             "42descriptor1": "([ff] display serial number) 8C1NG93",
                                                             "42descriptor2": "([fc] display name) DELL E2421HN",
                                                             "42descriptor3": "([fd] display range limits) 00 00 00 fd 00 38 4c 1e 53 11 00 0a 20 20 20 20 20 20 ",
                                                             "11Detailed Timing Descriptors (DTD)": {
-                                                                "42      dtd0": "1920x1080@60Hz, 52.7x29.6cm (23.8") progressive normal (VESA EDID DTD)",
-
-"11Established Timings Bitmap (ETB)": {
-                                                                    "42      etb0": "720x400@70Hz 53.0x30.0cm (24.0") progressive normal",
-"42      etb1": "640x480@60Hz 53.0x30.0cm (24.0") progressive normal",
-"42      etb2": "640x480@75Hz 53.0x30.0cm (24.0") progressive normal",
-"42      etb3": "800x600@60Hz 53.0x30.0cm (24.0") progressive normal",
-"42      etb4": "800x600@75Hz 53.0x30.0cm (24.0") progressive normal",
-"42      etb5": "1024x768@60Hz 53.0x30.0cm (24.0") progressive normal",
-"42      etb6": "1024x768@75Hz 53.0x30.0cm (24.0") progressive normal",
-"42      etb7": "1280x1024@75Hz 53.0x30.0cm (24.0") progressive normal",
-
-"11Standard Timings (STD)": {
-                                                                        "42      std0": "1152x1536@75Hz 53.0x30.0cm (24.0") progressive normal",
-"42      std1": "1280x1024@60Hz 53.0x30.0cm (24.0") progressive normal",
-"42      std2": "1600x900@60Hz 53.0x30.0cm (24.0") progressive normal",
-"42      std3": "1920x1080@60Hz 53.0x30.0cm (24.0") progressive normal",
-
-"11E-EDID Extension Blocks": {
-                                                                            "41  ": "(Empty List)",
+                                                                "42dtd0": "1920x1080@60Hz, 52.7x29.6cm (23.8\") progressive normal (VESA EDID DTD)",
+                                                                "11Established Timings Bitmap (ETB)": {
+                                                                    "42etb0": "720x400@70Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                    "42etb1": "640x480@60Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                    "42etb2": "640x480@75Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                    "42etb3": "800x600@60Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                    "42etb4": "800x600@75Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                    "42etb5": "1024x768@60Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                    "42etb6": "1024x768@75Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                    "42etb7": "1280x1024@75Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                    "11Standard Timings (STD)": {
+                                                                        "42std0": "1152x1536@75Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                        "42std1": "1280x1024@60Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                        "42std2": "1600x900@60Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                        "42std3": "1920x1080@60Hz 53.0x30.0cm (24.0\") progressive normal",
+                                                                        "11E-EDID Extension Blocks": {
+                                                                            "41": "(Empty List)",
                                                                             "11EIA/CEA-861 Data Blocks": {
-                                                                                "41  ": "(Empty List)",
+                                                                                "41": "(Empty List)",
                                                                                 "11EIA/CEA-861 Short Audio Descriptors": {
-                                                                                    "41  ": "(Empty List)",
+                                                                                    "41": "(Empty List)",
                                                                                     "11EIA/CEA-861 Short Video Descriptors": {
-                                                                                        "41  ": "(Empty List)",
+                                                                                        "41": "(Empty List)",
                                                                                         "11DisplayID Timings": {
-                                                                                            "41  ": "(Empty List)",
+                                                                                            "41": "(Empty List)",
                                                                                             "11DisplayID Strings": {
-                                                                                                "41  ": "(Empty List)",
+                                                                                                "41": "(Empty List)",
                                                                                                 "11Hex Dump": {
-                                                                                                    "44      Data": "00ffffffffffff0010ac28f142524543",
+                                                                                                    "44Data": "00ffffffffffff0010ac28f142524543",
                                                                                                     "43          ": "031f0104a5351e78e215c5a75650a026",
                                                                                                     "43          ": "115054a54b00714f8180a9c0d1c00101",
                                                                                                     "43          ": "010101010101023a801871382d40582c",
@@ -981,13 +977,13 @@
                                                                                         },
                                                                                         "12Memory Devices": {
                                                                                             "11Memory Device List": {
-                                                                                                "31        SPD:*": [
+                                                                                                "31SPD:*": [
                                                                                                     "8 GiB",
                                                                                                     "DDR3 SDRAM"
                                                                                                 ],
                                                                                                 "11Serial Presence Detect (SPD) Summary": {
-                                                                                                    "42         Size": "8 GiB",
-                                                                                                    "42      Devices": "1",
+                                                                                                    "42Size": "8 GiB",
+                                                                                                    "42Devices": "1",
                                                                                                     "42Types Present": "[0x400] DDR3 SDRAM",
                                                                                                 }
 "31SPD:0-0050(!)": [
@@ -996,26 +992,26 @@
                                                                                                     "HMT41GU6AFR8A-PB  "
                                                                                                 ],
                                                                                                 "11Serial Presence Detect (SPD)": {
-                                                                                                    "42                          Source": "0-0050 (at24)",
-                                                                                                    "42                    SPD Revision": "1.3",
-                                                                                                    "42                     Form Factor": "UDIMM (Unbuffered Long DIMM)",
-                                                                                                    "42                            Type": "DDR3-1600 (PC3-12800)",
-                                                                                                    "42                   Module Vendor": "[002d] SK Hynix (former Hyundai Electronics)",
-                                                                                                    "42                     DRAM Vendor": "[0000] (Unknown)",
-                                                                                                    "42                     Part Number": "HMT41GU6AFR8A-PB  ",
-                                                                                                    "42                            Size": "8192 MiB",
+                                                                                                    "42Source": "0-0050 (at24)",
+                                                                                                    "42SPD Revision": "1.3",
+                                                                                                    "42Form Factor": "UDIMM (Unbuffered Long DIMM)",
+                                                                                                    "42Type": "DDR3-1600 (PC3-12800)",
+                                                                                                    "42Module Vendor": "[002d] SK Hynix (former Hyundai Electronics)",
+                                                                                                    "42DRAM Vendor": "[0000] (Unknown)",
+                                                                                                    "42Part Number": "HMT41GU6AFR8A-PB  ",
+                                                                                                    "42Size": "8192 MiB",
                                                                                                     "42Manufacturing Date (Week / Year)": "11 / 2015",
-                                                                                                    "42                           Ranks": "2",
-                                                                                                    "42                IO Pins per Chip": "8",
-                                                                                                    "42                       Die count": "0 (Unspecified)",
-                                                                                                    "42                  Thermal Sensor": "[00] Not present",
-                                                                                                    "42              Supported Voltages": "1.35V 1.5V",
-                                                                                                    "42         Supported CAS Latencies": "11 10 9 8 7 6 ",
+                                                                                                    "42Ranks": "2",
+                                                                                                    "42IO Pins per Chip": "8",
+                                                                                                    "42Die count": "0 (Unspecified)",
+                                                                                                    "42Thermal Sensor": "[00] Not present",
+                                                                                                    "42Supported Voltages": "1.35V 1.5V",
+                                                                                                    "42Supported CAS Latencies": "11 10 9 8 7 6 ",
                                                                                                     "11Timings": {
-                                                                                                        "42       tCL": "11",
-                                                                                                        "42      tRCD": "13.125ns",
-                                                                                                        "42       tRP": "13.125ns",
-                                                                                                        "42      tRAS": "3.125ns",
+                                                                                                        "42tCL": "11",
+                                                                                                        "42tRCD": "13.125ns",
+                                                                                                        "42tRP": "13.125ns",
+                                                                                                        "42tRAS": "3.125ns",
                                                                                                     }
                                                                                                 },
                                                                                             },
@@ -1037,66 +1033,66 @@
                                                                                             },
                                                                                             "12USB Devices": {
                                                                                                 "11USB Devices": {
-                                                                                                    "42   001:001": "Linux 2.0 root hub",
-                                                                                                    "42   001:002": "(Unknown) USB2.0 HUB",
-                                                                                                    "42   001:003": "Realtek RTS5129 Card Reader Controller",
-                                                                                                    "42   001:004": "Xenta Gaming Mouse",
-                                                                                                    "42   001:005": "logitech Keyboard K120",
-                                                                                                    "42   002:001": "Linux 3.0 root hub",
+                                                                                                    "42001:001": "Linux 2.0 root hub",
+                                                                                                    "42001:002": "(Unknown) USB2.0 HUB",
+                                                                                                    "42001:003": "Realtek RTS5129 Card Reader Controller",
+                                                                                                    "42001:004": "Xenta Gaming Mouse",
+                                                                                                    "42001:005": "logitech Keyboard K120",
+                                                                                                    "42002:001": "Linux 3.0 root hub",
                                                                                                 },
                                                                                             },
                                                                                             "12Firmware": {
                                                                                                 "11Firmware List": {
-                                                                                                    "42    Result": "(Not available)",
+                                                                                                    "42Result": "(Not available)",
                                                                                                 },
                                                                                             },
                                                                                             "12Printers": {
                                                                                                 "11Printers (CUPS)": {
-                                                                                                    "41  ": "HP_LaserJet_MFP_M437_M443_NPI8217F7_",
+                                                                                                    "41": "HP_LaserJet_MFP_M437_M443_NPI8217F7_",
                                                                                                 },
                                                                                             },
                                                                                             "12Battery": {
                                                                                                 "11No batteries": {
-                                                                                                    "41  ": "No batteries found on this system",
+                                                                                                    "41": "No batteries found on this system",
                                                                                                 },
                                                                                             },
                                                                                             "12Sensors": {
                                                                                                 "11Temperature": {
-                                                                                                    "31        temp1": [
+                                                                                                    "31temp1": [
                                                                                                         "acpitz",
                                                                                                         "27.80°C"
                                                                                                     ],
-                                                                                                    "31        temp2": [
+                                                                                                    "31temp2": [
                                                                                                         "acpitz",
                                                                                                         "29.80°C"
                                                                                                     ],
-                                                                                                    "31        temp1": [
+                                                                                                    "31temp1": [
                                                                                                         "pch_skylake",
-                                                                                                        "47.00°C"
+                                                                                                        "48.00°C"
                                                                                                     ],
-                                                                                                    "31 Package id 0": [
-                                                                                                        "coretemp",
-                                                                                                        "44.00°C"
-                                                                                                    ],
-                                                                                                    "31       Core 0": [
-                                                                                                        "coretemp",
-                                                                                                        "38.00°C"
-                                                                                                    ],
-                                                                                                    "31       Core 1": [
+                                                                                                    "31Package id 0": [
                                                                                                         "coretemp",
                                                                                                         "45.00°C"
                                                                                                     ],
-                                                                                                    "31       Core 2": [
+                                                                                                    "31Core 0": [
+                                                                                                        "coretemp",
+                                                                                                        "37.00°C"
+                                                                                                    ],
+                                                                                                    "31Core 1": [
+                                                                                                        "coretemp",
+                                                                                                        "41.00°C"
+                                                                                                    ],
+                                                                                                    "31Core 2": [
                                                                                                         "coretemp",
                                                                                                         "39.00°C"
                                                                                                     ],
-                                                                                                    "31       Core 3": [
+                                                                                                    "31Core 3": [
                                                                                                         "coretemp",
-                                                                                                        "39.00°C"
+                                                                                                        "45.00°C"
                                                                                                     ],
                                                                                                     "31thermal_zone2": [
                                                                                                         "thermal",
-                                                                                                        "47.00°C"
+                                                                                                        "48.00°C"
                                                                                                     ],
                                                                                                     "31thermal_zone0": [
                                                                                                         "thermal",
@@ -1112,13 +1108,13 @@
                                                                                                     ],
                                                                                                 },
                                                                                                 "11Fan Speed": {
-                                                                                                    "31      fan1": [
+                                                                                                    "31fan1": [
                                                                                                         "dell_smm",
-                                                                                                        "502.00 RPM"
+                                                                                                        "505.00 RPM"
                                                                                                     ],
-                                                                                                    "31      fan2": [
+                                                                                                    "31fan2": [
                                                                                                         "dell_smm",
-                                                                                                        "709.00 RPM"
+                                                                                                        "712.00 RPM"
                                                                                                     ],
                                                                                                 },
                                                                                                 "11Drive Temperature": {
@@ -1130,39 +1126,39 @@
                                                                                             },
                                                                                             "12Input Devices": {
                                                                                                 "11Input Devices": {
-                                                                                                    "31                           Sleep Button": [
+                                                                                                    "31 Sleep Button": [
                                                                                                         "Keyboard",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31                           Power Button": [
+                                                                                                    "31 Power Button": [
                                                                                                         "Keyboard",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31                           Power Button": [
+                                                                                                    "31 Power Button": [
                                                                                                         "Keyboard",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31                              Video Bus": [
+                                                                                                    "31 Video Bus": [
                                                                                                         "Keyboard",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31                       LXD Gaming Mouse": [
+                                                                                                    "31 LXD Gaming Mouse": [
                                                                                                         "Keyboard",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31                       LXD Gaming Mouse": [
+                                                                                                    "31 LXD Gaming Mouse": [
                                                                                                         "Mouse",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31      LXD Gaming Mouse Consumer Control": [
+                                                                                                    "31 LXD Gaming Mouse Consumer Control": [
                                                                                                         "Keyboard",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31        LXD Gaming Mouse System Control": [
+                                                                                                    "31 LXD Gaming Mouse System Control": [
                                                                                                         "Keyboard",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31                  Logitech USB Keyboard": [
+                                                                                                    "31 Logitech USB Keyboard": [
                                                                                                         "Keyboard",
                                                                                                         "logitech"
                                                                                                     ],
@@ -1170,51 +1166,51 @@
                                                                                                         "Keyboard",
                                                                                                         "logitech"
                                                                                                     ],
-                                                                                                    "31   Logitech USB Keyboard System Control": [
+                                                                                                    "31 Logitech USB Keyboard System Control": [
                                                                                                         "Keyboard",
                                                                                                         "logitech"
                                                                                                     ],
-                                                                                                    "31                             PC Speaker": [
+                                                                                                    "31 PC Speaker": [
                                                                                                         "Speaker",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31                     HDA Digital PCBeep": [
+                                                                                                    "31 HDA Digital PCBeep": [
                                                                                                         "Keyboard",
                                                                                                         ""
                                                                                                     ],
-                                                                                                    "31                 HDA Intel PCH Rear Mic": [
+                                                                                                    "31 HDA Intel PCH Rear Mic": [
                                                                                                         "Audio",
                                                                                                         "Intel"
                                                                                                     ],
-                                                                                                    "31                     HDA Intel PCH Line": [
+                                                                                                    "31 HDA Intel PCH Line": [
                                                                                                         "Audio",
                                                                                                         "Intel"
                                                                                                     ],
-                                                                                                    "31            HDA Intel PCH Headphone Mic": [
+                                                                                                    "31 HDA Intel PCH Headphone Mic": [
                                                                                                         "Audio",
                                                                                                         "Intel"
                                                                                                     ],
-                                                                                                    "31                 HDA Intel PCH Line Out": [
+                                                                                                    "31 HDA Intel PCH Line Out": [
                                                                                                         "Audio",
                                                                                                         "Intel"
                                                                                                     ],
-                                                                                                    "31            HDA Intel PCH HDMI/DP,pcm:3": [
+                                                                                                    "31 HDA Intel PCH HDMI/DP,pcm:3": [
                                                                                                         "Audio",
                                                                                                         "Intel"
                                                                                                     ],
-                                                                                                    "31            HDA Intel PCH HDMI/DP,pcm:7": [
+                                                                                                    "31 HDA Intel PCH HDMI/DP,pcm:7": [
                                                                                                         "Audio",
                                                                                                         "Intel"
                                                                                                     ],
-                                                                                                    "31            HDA Intel PCH HDMI/DP,pcm:8": [
+                                                                                                    "31 HDA Intel PCH HDMI/DP,pcm:8": [
                                                                                                         "Audio",
                                                                                                         "Intel"
                                                                                                     ],
-                                                                                                    "31            HDA Intel PCH HDMI/DP,pcm:9": [
+                                                                                                    "31 HDA Intel PCH HDMI/DP,pcm:9": [
                                                                                                         "Audio",
                                                                                                         "Intel"
                                                                                                     ],
-                                                                                                    "31           HDA Intel PCH HDMI/DP,pcm:10": [
+                                                                                                    "31 HDA Intel PCH HDMI/DP,pcm:10": [
                                                                                                         "Audio",
                                                                                                         "Intel"
                                                                                                     ],
@@ -1222,7 +1218,7 @@
                                                                                             },
                                                                                             "12Storage": {
                                                                                                 "11UDisks2": {
-                                                                                                    "31       sda": [
+                                                                                                    "31sda": [
                                                                                                         " FORESEE 256GB SSD",
                                                                                                         "238.5 GiB"
                                                                                                     ],
@@ -1230,147 +1226,147 @@
                                                                                             },
                                                                                             "12Resources": {
                                                                                                 "11I/O Ports": {
-                                                                                                    "42      >0000-0000": "PCI Bus 0000:00",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42      >0000-0000": "PCI Bus 0000:00",
-                                                                                                    "42      >0000-0000": "PCI Bus 0000:00",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
-                                                                                                    "42    >  0000-0000": "pnp 00:01",
-                                                                                                    "42  >    0000-0000": "pnp 00:01",
+                                                                                                    "42>0000-0000": "PCI Bus 0000:00",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>0000-0000": "PCI Bus 0000:00",
+                                                                                                    "42>0000-0000": "PCI Bus 0000:00",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
+                                                                                                    "42>  0000-0000": "pnp 00:01",
+                                                                                                    "42>    0000-0000": "pnp 00:01",
                                                                                                     "42>      0000-0000": "pnp 00:01",
                                                                                                 },
                                                                                                 "11Memory": {
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
                                                                                                     "42>      00000000-00000000": "iTCO_wdt iTCO_wdt",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
                                                                                                     "42>      00000000-00000000": "iTCO_wdt iTCO_wdt",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42  >    00000000-00000000": "pnp 00:05",
-                                                                                                    "42      >00000000-00000000": "System RAM",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
-                                                                                                    "42    >  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>    00000000-00000000": "pnp 00:05",
+                                                                                                    "42>00000000-00000000": "System RAM",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
+                                                                                                    "42>  00000000-00000000": "Kernel bss",
                                                                                                 },
                                                                                                 "11DMA": {
-                                                                                                    "42       > 4": "cascade",
+                                                                                                    "42> 4": "cascade",
                                                                                                 },
                                                                                             },
                                                                                         },
